@@ -1,0 +1,17 @@
+[juniper_recipes]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "think"
+local = "Juniper came by earlier asking about the syrups I prepare for my patients."
+next = "1"
+
+[juniper_recipes.1]
+portrait = "think_smile"
+local = "She seemed rather interested in how I balance the ingredients."
+next = "2"
+
+[juniper_recipes.2]
+portrait = "happy"
+local = "I suspect she was looking for ideas for her own potions. I suppose I can't blame her. Good recipes are worth sharing."

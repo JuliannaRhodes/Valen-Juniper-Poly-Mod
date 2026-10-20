@@ -1,0 +1,17 @@
+[junipers_remedy]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "annoyance"
+local = "Juniper recently suggested that one of her potions might be useful for a condition I was treating."
+next = "1"
+
+[junipers_remedy.1]
+portrait = "annoyance"
+local = "I asked whether she'd tested it properly."
+next = "2"
+
+[junipers_remedy.2]
+portrait = "ugh"
+local = "She said no."

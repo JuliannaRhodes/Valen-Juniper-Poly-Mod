@@ -1,0 +1,13 @@
+[juniper_modesty]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>"},
+]
+portrait = "think"
+local = "Juniper certainly doesn't seem troubled by modesty."
+next = "1"
+
+[juniper_modesty.1]
+portrait = "think_blush"
+local = "Not that I have any objection to her attire."

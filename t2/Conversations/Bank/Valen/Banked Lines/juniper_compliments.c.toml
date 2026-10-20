@@ -1,0 +1,49 @@
+[junipers_hair]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>"},
+]
+portrait = "think"
+local = "Juniper's hair is quite lovely."
+next = "1"
+
+[junipers_hair.1]
+portrait = "think_blush"
+local = "I wonder how long it takes her to care for it."
+
+[juniper_laugh]
+portrait = "yikes"
+effect  = "sweat"
+local = "Juniper has an unusual laugh."
+next = "1"
+
+[juniper_laugh.1]
+portrait = "think_blush"
+effect = "sweat"
+local = "Not unpleasant. Just... difficult to ignore."
+next = "2"
+
+[junipers_makeup]
+portrait = "think"
+local = "I'm not usually one for much makeup, but I think Juniper's is quite well done."
+next = "1"
+
+[junipers_makeup.1]
+portrait = "think_blush"
+local = "It really makes her eyes stand out."
+
+[juniper_modesty]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>"},
+	
+]
+portrait = "think"
+local = "Juniper certainly doesn't seem troubled by modesty."
+next = "1"
+
+[juniper_modesty.1]
+portrait = "think_blush"
+local = "Not that I have any objection to her attire."

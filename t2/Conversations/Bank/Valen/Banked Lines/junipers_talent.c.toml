@@ -1,0 +1,13 @@
+[junipers_talent]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ val_juni_lvl = 6 },
+]
+portrait = "ugh"
+local = "Juniper has a remarkable talent for catching me off guard."
+next = "1"
+
+[junipers_talent.1]
+portrait = "flustered"
+local = "One would think I'd have learned to anticipate her by now."

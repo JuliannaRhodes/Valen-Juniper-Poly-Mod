@@ -1,0 +1,52 @@
+[juniper_arguing]
+refresh = "1y"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>", comparator = "!=" },
+	{ val_juni_lvl = 6 },
+
+]
+portrait = "mad"
+local = "Juniper seems to take great pleasure in challenging my opinions."
+next = "1"
+
+[juniper_arguing.1]
+portrait = "flustered"
+local = "It would be more irritating if she weren't so often entertaining."
+next = "2"
+
+[junipers_charm]
+portrait = "yikes"
+local = "Juniper is very...excentric."
+effect = "drop"
+next = "1"
+
+[junipers_charm.1]
+portrait = "think_blush"
+effect = "drop"
+local = "But I suppose that's part of her charm."
+
+[junipers_stubborn]
+portrait = "ugh"
+local = "Juniper is an exceptionally stubborn woman."
+next = "1"
+
+[junipers_stubborn.1]
+portrait = "think"
+local = "I suppose it would be a dull world if everyone were so easily persuaded."
+
+[juniper_being_difficult]
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>", comparator = "!=" },
+	{ val_juni_lvl = 4 },
+
+]
+portrait = "neutral"
+local = "Juniper can be rather difficult at times."
+next = "1"
+
+[juniper__being_difficult.1]
+portrait = "raise_eyebrow"
+local = "Don't take it personally."
+

@@ -1,0 +1,26 @@
+[juniper_wine]
+# Conversation had the following conditions
+#     valen is at the inn
+#	  valen is drinking wine
+refresh = "2m"
+requires = [
+	{ npc = "valen" },
+	{ location = "inn" },
+	{ any = [
+		{ valen_drinking = "wine" },
+		{ valen_drinking = "white_wine" },
+		{ valen_drinking = "rose_wine" }
+	] },
+]
+portrait = "think_smile"
+local = "Juniper has a rather remarkable taste in wine."
+next = "1"
+
+[juniper_wine.1]
+portrait = "happy"
+local = "It was kind of her to share that witchvine merlot."
+next = "2"
+
+[juniper_wine.2]
+portrait = "think_blush"
+local = "I suppose I should thank her properly sometime."

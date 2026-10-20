@@ -1,0 +1,44 @@
+[junipers_favor_Spring]
+refresh = "1y"
+requires = [
+	{ season =  "spring" },
+	{ npc = "valen" },
+]
+portrait = "think"
+local = "Juniper asked me to keep an eye out for nettle while I was out."
+next = "1"
+
+[juniper_favor.1]
+portrait = "ugh"
+local = "She was very specific about not touching it with bare hands."
+next = "2"
+
+[junipers_favor.2]
+portrait = "flustered"
+effect = "angry"
+local = "I'm a doctor, not a child."
+
+[junipers_favor_summer]
+refresh = "1y"
+requires = [
+	{ season =  "summer" },
+	{ npc = "valen" },
+]
+portrait = "think"
+local = "Juniper asked me to keep an eye out for mushrooms while I was out."
+next = "1"
+
+[juniper_favor_summer.1]
+portrait = "ugh"
+local = "She's planning to make some sort of iced mushroom tea to beat the summer heat."
+next = "2"
+
+[junipers_favor_summer.2]
+portrait = "annoyance"
+local = "After all the warnings I've given her about red toadstools, you'd think she'd develop a healthy aversion to mushrooms."
+next = "3"
+
+[junipers_favor_summer.3]
+portrait = "think_smile"
+local = "Now, a nice glass of iced green tea would be quite refreshing."
+next = "4"

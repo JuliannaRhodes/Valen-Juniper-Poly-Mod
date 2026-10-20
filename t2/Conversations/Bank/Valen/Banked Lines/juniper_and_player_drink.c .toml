@@ -1,0 +1,12 @@
+[juniper_player_drink]
+refresh = "2m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "happy"
+local = "I offered to share a bottle of wine with Juniper one of these weekends."
+next = "1"
+
+[juniper_player_drink.1]
+portrait = "happy_blush"
+local = "I'd be glad to have you there, too."

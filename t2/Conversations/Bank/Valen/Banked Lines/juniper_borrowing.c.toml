@@ -1,0 +1,17 @@
+[juniper_borrowing]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "think"
+local = "Juniper has borrowed a few things from me since moving in."
+next = "1"
+
+[junipers_borrowing.1]
+portrait = "yikes"
+local = "I believe I've received most of them back."
+next = "2"
+
+[junipers_noises.2]
+portrait = "ugh"
+local = "Though I suspect I'll have to visit her myself if I want the rest."

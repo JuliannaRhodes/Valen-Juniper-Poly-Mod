@@ -1,0 +1,21 @@
+[juniper_schooling]
+# Conversation had the following conditions
+#     (full_penalty) juniper is near
+refresh = "1y"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>", comparator = "!=" },
+]
+portrait = "think"
+local = "It takes dedication to see years of schooling through."
+next = "1"
+
+[juniper_schooling.1]
+portrait = "think_blush"
+local = "Juniper and I have that in common at least. It's quite respectable."
+next = "2"
+
+[juniper_schooling.2]
+portrait = "happy_blush"
+effect = "sweat"
+local = "Don't tell her I said that."

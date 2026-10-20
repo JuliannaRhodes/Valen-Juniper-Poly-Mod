@@ -1,0 +1,12 @@
+[juniper_father]
+refresh = "1y"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "think"
+local = "My father always appreciated people who were curious about the world around them."
+next = "1"
+
+[juniper_father.1]
+portrait = "think_smile"
+local = "I think he'd have liked Juniper. She has a mind of her own, and she's not afraid to use it."

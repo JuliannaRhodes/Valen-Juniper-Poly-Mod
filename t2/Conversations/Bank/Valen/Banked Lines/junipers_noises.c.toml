@@ -1,0 +1,18 @@
+[junipers_noises]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "raised_eyebrow"
+local = "I've heard some rather peculiar noises coming from Juniper's home lately."
+next = "1"
+
+[junipers_noises.1]
+portrait = "think"
+local = "I can only assume she's experimenting with another potion."
+next = "2"
+
+[junipers_noises.2]
+portrait = "yikes"
+effect = "sweat"
+local = "At least, I hope that's what it is."

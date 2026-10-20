@@ -1,0 +1,22 @@
+[junipers_sorcery]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "annoyance"
+local = "Juniper once got so mad at me for mistaking sorcery and witchcraft."
+next = "1"
+
+[junipers_sorcery.1]
+portrait = "ugh"
+local = "You'd think I'd committed some grave offense."
+next = "2"
+
+[junipers_sorcery.2]
+portrait = "think"
+local = "Though, to be fair, she did explain the distinction rather thoroughly."
+next = "3"
+
+[junipers_sorcery.3]
+portrait = "think_blush"
+local = "I suppose I can't fault her for caring so much about something that's important to her."

@@ -1,0 +1,12 @@
+[junipers_fox]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "think"
+local = "Juniper said I remind her of a fox."
+next = "1"
+
+[junipers_fox.1]
+portrait = "think"
+local = "I'm still trying to figure out whether she meant it as a compliment."

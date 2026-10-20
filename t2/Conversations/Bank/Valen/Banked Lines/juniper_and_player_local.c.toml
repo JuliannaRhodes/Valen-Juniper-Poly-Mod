@@ -1,0 +1,12 @@
+[juniper_player_local]
+refresh = "2m"
+requires = [
+	{ npc = "valen" },
+]
+portrait = "think"
+local = "You get to know a town quite well when you've spent almost your whole life in it."
+next = "1"
+
+[juniper_player_local.1]
+portrait = "happy_blush"
+local = "It makes someone like you and Juniper rather refreshing."

@@ -1,0 +1,13 @@
+[juniper_crushing]
+# Conversation had the following conditions
+#     (require) Ari is dating juniper 
+#     (require) Ari is dating juniper 
+#     (full_penalty) juniper is near
+refresh = "2m"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>", comparator = "!=" },
+    { juniper_is_dating = true },
+]
+portrait = "neutral"
+local = "Juniper may pretend otherwise, but she really likes you."
