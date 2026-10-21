@@ -2,6 +2,7 @@
 refresh = "3m"
 requires = [
 	{ npc = "valen" },
+	{ val_juni_lvl = 4 },
 ]
 portrait = "think"
 local = "Juniper came by earlier asking about the syrups I prepare for my patients."

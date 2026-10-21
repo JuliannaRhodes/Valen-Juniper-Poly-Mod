@@ -1,13 +1,102 @@
 [juniper_crushing]
-# Conversation had the following conditions
-#     (require) Ari is dating juniper 
-#     (require) Ari is dating juniper 
+# Conversation had the following conditions 
 #     (full_penalty) juniper is near
-refresh = "2m"
+refresh = "1y"
 requires = [
 	{ npc = "valen" },
 	{ valen_zone = "<juniper_zone>", comparator = "!=" },
-    { juniper_is_dating = true },
+	{ valen_heart_level = 4, comparator = ">=" }, 
 ]
+
+next = [
+	{ target = "vj4hv6j6", requires = [{ valen_juniper_hearts = "four_hearts" }] }, {valen_heart_level = 5, comparator = ">=" }, {valen_heart_level = 8, comparator = "<" }, {juniper_heart_level = 5, comparator = ">=" }, {juniper_heart_level = 8, comparator = "<" },
+	{ target = "vj4hv8j6", requires = [{ valen_juniper_hearts = "four_hearts" }] }, {valen_heart_level = 8, comparator = ">=" }, {valen_heart_level = 10, comparator = "<" }, {juniper_heart_level = 5, comparator = ">=" }, {juniper_heart_level = 8, comparator = "<" },
+	{ target = "vj4hv8j8", requires = [{ valen_juniper_hearts = "four_hearts" }] }, {valen_heart_level = 8, comparator = ">=" }, {valen_heart_level = 10, comparator = "<" }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
+	{ target = "vj6hv4j4", requires = [{ valen_juniper_hearts = "six_hearts" }] }, { valen_heart_level = 4 }, {juniper_heart_level = 4 },
+	{ target = "vj6hv4j6", requires = [{ valen_juniper_hearts = "six_hearts" }] }, { valen_heart_level = 4 }, {juniper_heart_level = 5, comparator = ">=" }, {juniper_heart_level = 8, comparator = "<" },
+	{ target = "vj6hv6j8", requires = [{ valen_juniper_hearts = "six_hearts" }] }, {valen_heart_level = 5, comparator = ">=" }, {valen_heart_level = 8, comparator = "<" }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
+	{ target = "vj6hv8j8", requires = [{ valen_juniper_hearts = "six_hearts" }] }, { valen_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 8, comparator = ">=" }, 
+	{ target = "vj8hv4j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, { valen_heart_level = 4 }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
+	{ target = "vj8hv6j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, {valen_heart_level = 5, comparator = ">=" }, {valen_heart_level = 8, comparator = "<" }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
+	{ target = "vj8hv8j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, { valen_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 8, comparator = ">=" }, 
+]
+
+[juniper_crushing.vj4hv6j6]
+portrait = "annoyance"
+local = "I'm surprised you can stand to be around Juniper for so long."
+next = "vj4hv6j6_1"
+
+[juniper_crushing.vj4hv6j6_1]
+portrait = "ugh"
+local = "She's... a lot."
+next = "vj4hv6j6_2"
+
+[juniper_crushing.vj4hv6j6_2]
 portrait = "neutral"
-local = "Juniper may pretend otherwise, but she really likes you."
+local = "Let me know if she ever becomes too much for you, alright?"
+
+[juniper_crushing.vj4hv8j6]
+portrait = "ugh"
+local = "I really don't understand why you spend so much time with Juniper."
+next = "vj4hv8j6_1"
+
+[juniper_crushing.vj4hv8j6_1]
+portrait = "mad"
+local = "She's always got this smug little look whenever she's around you..."
+next = "vj4hv8j6_2"
+
+[juniper_crushing.vj4hv8j6_2]
+portrait = "mad"
+effect = "angry"
+local = "It's infuriating'."
+
+[juniper_crushing.vj4hv8j8]
+portrait = "dissapointed"
+local = "I still don't understand what you see in Juniper but I suppose that's not really my decision to make."
+next = "vj4hv8j8_1"
+
+[juniper_crushing.vj4hv8j8_1]
+portraitm = "caring_brows"
+local = "If she makes you happy then I'm glad."
+
+[juniper_crushing.vj6hv4j4]
+portrait = "think"
+local = "Juniper mentioned you the other day. Something about being a good test subject..."
+next = "vj6hv4j4_1"
+
+[juniper_crushing.vj6hv4j4_1]
+portrait = "
+
+[juniper_crushing.vj6hv4j4]
+portrait = "think"
+local = "Juniper mentioned you the other day."
+next = "vj6hv4j4_1"
+
+[juniper_crushing.vj6hv4j4_1]
+portrait = "annoyance"
+local = "Something about being a good test subject..."
+next = "vj6hv4j4_2"
+
+[juniper_crushing.vj6hv4j4_2]
+portrait = "annoyance" 
+effect = "sigh"
+local = "I hope I have no reason to be worried you’ll come in here looking ill."
+
+
+[juniper_crushing_vj8h]
+# Conversation had the following conditions
+#     (require) Valen is dating juniper 
+refresh = "3m"
+requires = [
+	{ val_juni_lvl = 8 },
+]
+portrait = "happy"
+local = "You know, Juniper may pretend otherwise, but she really likes you."
+next = "vj8h_1"
+
+[juniper_crushing_vj8h_1]
+portrait = "happy_blush"
+
+
+
+

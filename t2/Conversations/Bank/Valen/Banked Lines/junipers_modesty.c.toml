@@ -3,6 +3,7 @@ refresh = "3m"
 requires = [
 	{ npc = "valen" },
 	{ valen_zone = "<juniper_zone>"},
+	{ val_juni_lvl = 8 },
 ]
 portrait = "think"
 local = "Juniper certainly doesn't seem troubled by modesty."

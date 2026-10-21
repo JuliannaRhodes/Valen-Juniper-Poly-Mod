@@ -1,5 +1,5 @@
 [junipers_remedy]
-refresh = "3m"
+refresh = "1y"
 requires = [
 	{ npc = "valen" },
 ]

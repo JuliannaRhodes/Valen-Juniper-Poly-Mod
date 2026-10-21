@@ -3,6 +3,7 @@ refresh = "1y"
 requires = [
 	{ season =  "spring" },
 	{ npc = "valen" },
+	{ val_juni_lvl = 4 },
 ]
 portrait = "think"
 local = "Juniper asked me to keep an eye out for nettle while I was out."
@@ -23,6 +24,7 @@ refresh = "1y"
 requires = [
 	{ season =  "summer" },
 	{ npc = "valen" },
+	{ val_juni_lvl = 4 },
 ]
 portrait = "think"
 local = "Juniper asked me to keep an eye out for mushrooms while I was out."
