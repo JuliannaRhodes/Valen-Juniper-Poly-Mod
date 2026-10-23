@@ -30,7 +30,7 @@ portrait = "think"
 local = "Juniper asked me to keep an eye out for mushrooms while I was out."
 next = "1"
 
-[juniper_favor_summer.1]
+[junipers_favor_summer.1]
 portrait = "ugh"
 local = "She's planning to make some sort of iced mushroom tea to beat the summer heat."
 next = "2"
