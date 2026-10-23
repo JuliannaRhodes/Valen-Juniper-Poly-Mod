@@ -1,4 +1,4 @@
-[junipers_favor_Spring]
+[junipers_favor_spring]
 refresh = "1y"
 requires = [
 	{ season =  "spring" },
@@ -9,12 +9,12 @@ portrait = "think"
 local = "Juniper asked me to keep an eye out for nettle while I was out."
 next = "1"
 
-[juniper_favor.1]
+[junipers_favor_spring.1]
 portrait = "ugh"
 local = "She was very specific about not touching it with bare hands."
 next = "2"
 
-[junipers_favor.2]
+[junipers_favor_spring.2]
 portrait = "flustered"
 effect = "angry"
 local = "I'm a doctor, not a child."

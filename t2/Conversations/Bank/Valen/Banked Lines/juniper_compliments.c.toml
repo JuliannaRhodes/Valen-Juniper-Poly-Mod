@@ -3,6 +3,7 @@ refresh = "3m"
 requires = [
 	{ npc = "valen" },
 	{ valen_zone = "<juniper_zone>"},
+	{ val_juni_lvl = 6 },
 ]
 portrait = "think"
 local = "Juniper's hair is quite lovely."
@@ -13,6 +14,12 @@ portrait = "think_blush"
 local = "I wonder how long it takes her to care for it."
 
 [juniper_laugh]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>"},
+	{ val_juni_lvl = 6 },
+]
 portrait = "yikes"
 effect  = "sweat"
 local = "Juniper has an unusual laugh."
@@ -22,9 +29,14 @@ next = "1"
 portrait = "think_blush"
 effect = "sweat"
 local = "Not unpleasant. Just... difficult to ignore."
-next = "2"
 
 [junipers_makeup]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>"},
+	{ val_juni_lvl = 6 },
+]
 portrait = "think"
 local = "I'm not usually one for much makeup, but I think Juniper's is quite well done."
 next = "1"
@@ -38,6 +50,7 @@ refresh = "3m"
 requires = [
 	{ npc = "valen" },
 	{ valen_zone = "<juniper_zone>"},
+	{ val_juni_lvl = 8 },
 	
 ]
 portrait = "think"
