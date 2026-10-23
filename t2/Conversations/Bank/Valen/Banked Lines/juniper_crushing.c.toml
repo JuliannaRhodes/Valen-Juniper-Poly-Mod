@@ -19,6 +19,7 @@ next = [
 	{ target = "vj8hv4j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, { valen_heart_level = 4 }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
 	{ target = "vj8hv6j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, {valen_heart_level = 5, comparator = ">=" }, {valen_heart_level = 8, comparator = "<" }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
 	{ target = "vj8hv8j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, { valen_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 8, comparator = ">=" }, 
+	{ target = "1", requires = [] },
 ]
 
 [juniper_crushing.vj4hv6j6]
