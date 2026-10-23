@@ -47,6 +47,6 @@ local = "Juniper can be rather difficult at times."
 next = "1"
 
 [juniper__being_difficult.1]
-portrait = "raise_eyebrow"
+portrait = "raised_eyebrow"
 local = "Don't take it personally."
 

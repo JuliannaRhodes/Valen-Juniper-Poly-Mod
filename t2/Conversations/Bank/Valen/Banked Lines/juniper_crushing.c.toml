@@ -7,19 +7,70 @@ requires = [
 	{ valen_zone = "<juniper_zone>", comparator = "!=" },
 	{ valen_heart_level = 4, comparator = ">=" }, 
 ]
-
 next = [
-	{ target = "vj4hv6j6", requires = [{ valen_juniper_hearts = "four_hearts" }] }, {valen_heart_level = 5, comparator = ">=" }, {valen_heart_level = 8, comparator = "<" }, {juniper_heart_level = 5, comparator = ">=" }, {juniper_heart_level = 8, comparator = "<" },
-	{ target = "vj4hv8j6", requires = [{ valen_juniper_hearts = "four_hearts" }] }, {valen_heart_level = 8, comparator = ">=" }, {valen_heart_level = 10, comparator = "<" }, {juniper_heart_level = 5, comparator = ">=" }, {juniper_heart_level = 8, comparator = "<" },
-	{ target = "vj4hv8j8", requires = [{ valen_juniper_hearts = "four_hearts" }] }, {valen_heart_level = 8, comparator = ">=" }, {valen_heart_level = 10, comparator = "<" }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
-	{ target = "vj6hv4j4", requires = [{ valen_juniper_hearts = "six_hearts" }] }, { valen_heart_level = 4 }, {juniper_heart_level = 4 },
-	{ target = "vj6hv4j6", requires = [{ valen_juniper_hearts = "six_hearts" }] }, { valen_heart_level = 4 }, {juniper_heart_level = 5, comparator = ">=" }, {juniper_heart_level = 8, comparator = "<" },
-	{ target = "vj6hv6j8", requires = [{ valen_juniper_hearts = "six_hearts" }] }, {valen_heart_level = 5, comparator = ">=" }, {valen_heart_level = 8, comparator = "<" }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
-	{ target = "vj6hv8j8", requires = [{ valen_juniper_hearts = "six_hearts" }] }, { valen_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 8, comparator = ">=" }, 
-	{ target = "vj8hv4j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, { valen_heart_level = 4 }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
-	{ target = "vj8hv6j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, {valen_heart_level = 5, comparator = ">=" }, {valen_heart_level = 8, comparator = "<" }, {juniper_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 10, comparator = "<" },
-	{ target = "vj8hv8j8", requires = [{ valen_juniper_hearts = "eight_hearts" }] }, { valen_heart_level = 8, comparator = ">=" }, {juniper_heart_level = 8, comparator = ">=" }, 
-	{ target = "1", requires = [] },
+    { target = "vj4hv6j6", requires = [
+        { valen_juniper_hearts = "four_hearts" },
+        { valen_heart_level = 5, comparator = ">=" },
+        { valen_heart_level = 8, comparator = "<" },
+        { juniper_heart_level = 5, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = "<" }
+    ] },
+    { target = "vj4hv8j6", requires = [
+        { valen_juniper_hearts = "four_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { valen_heart_level = 10, comparator = "<" },
+        { juniper_heart_level = 5, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = "<" }
+    ] },
+    { target = "vj4hv8j8", requires = [
+        { valen_juniper_hearts = "four_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { valen_heart_level = 10, comparator = "<" },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj6hv4j4", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 4 },
+        { juniper_heart_level = 4 }
+    ] },
+    { target = "vj6hv4j6", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 4 },
+        { juniper_heart_level = 5, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = "<" }
+    ] },
+    { target = "vj6hv6j8", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 5, comparator = ">=" },
+        { valen_heart_level = 8, comparator = "<" },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj6hv8j8", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = ">=" }
+    ] },
+    { target = "vj8hv4j8", requires = [
+        { valen_juniper_hearts = "eight_hearts" },
+        { valen_heart_level = 4 },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj8hv6j8", requires = [
+        { valen_juniper_hearts = "eight_hearts" },
+        { valen_heart_level = 5, comparator = ">=" },
+        { valen_heart_level = 8, comparator = "<" },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj8hv8j8", requires = [
+        { valen_juniper_hearts = "eight_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = ">=" }
+    ] },
+    { target = "1", requires = [] }
 ]
 
 [juniper_crushing.vj4hv6j6]
@@ -57,7 +108,7 @@ local = "I still don't understand what you see in Juniper but I suppose that's n
 next = "vj4hv8j8_1"
 
 [juniper_crushing.vj4hv8j8_1]
-portrait = "caring_brows"
+portrait = "caring_brows_special"
 local = "If she makes you happy then I'm glad."
 
 [juniper_crushing.vj6hv4j4]
