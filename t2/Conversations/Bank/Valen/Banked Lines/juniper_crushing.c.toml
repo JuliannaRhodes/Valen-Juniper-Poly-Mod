@@ -48,7 +48,7 @@ next = "vj4hv8j6_2"
 [juniper_crushing.vj4hv8j6_2]
 portrait = "mad"
 effect = "angry"
-local = "It's infuriating'."
+local = "It's infuriating."
 
 [juniper_crushing.vj4hv8j8]
 portrait = "dissapointed"
@@ -56,7 +56,7 @@ local = "I still don't understand what you see in Juniper but I suppose that's n
 next = "vj4hv8j8_1"
 
 [juniper_crushing.vj4hv8j8_1]
-portraitm = "caring_brows"
+portrait = "caring_brows"
 local = "If she makes you happy then I'm glad."
 
 [juniper_crushing.vj6hv4j4]
@@ -72,7 +72,7 @@ next = "vj6hv4j4_2"
 [juniper_crushing.vj6hv4j4_2]
 portrait = "annoyance" 
 effect = "sigh"
-local = "I hope I have no reason to be worried you’ll come in here looking ill."'
+local = "I hope I have no reason to be worried you’ll come in here looking ill."
 
 [juniper_crushing.vj5hv4j6]
 portrait = "raised_eyebrow"
@@ -85,7 +85,7 @@ local = "I suppose you've made quite an impression on her."
 
 [juniper_crushing.vj6hv6j8]
 portrait = "neutral"
-local = "Hey [Ari]. I thought I should tell you something, as your friend. 
+local = "Hey [Ari]. I thought I should tell you something, as your friend. "
 next = "vj6hv6j8_1"
 
 [juniper_crushing.vj6hv6j8_1]
@@ -114,7 +114,7 @@ local = "I must admit it's nice to see you so happy."
 [juniper_crushing.vj8hv4j8]
 portrait = "sincere_special"
 local = "So...Juniper told me she has feelings for you."
-next = "vj8hv4j8_1
+next = "vj8hv4j8_1"
 
 [juniper_crushing.vj8hv4j8_1]
 portrait = "mad"
