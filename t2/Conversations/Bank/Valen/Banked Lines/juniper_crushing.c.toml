@@ -2,6 +2,7 @@
 # Conversation had the following conditions 
 #     (full_penalty) juniper is near
 refresh = "1y"
+local = ""
 requires = [
 	{ npc = "valen" },
 	{ valen_zone = "<juniper_zone>", comparator = "!=" },

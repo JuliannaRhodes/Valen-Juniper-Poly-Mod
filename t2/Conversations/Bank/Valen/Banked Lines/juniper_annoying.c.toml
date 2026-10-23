@@ -13,7 +13,7 @@ next = "1"
 [juniper_arguing.1]
 portrait = "flustered"
 local = "It would be more irritating if she weren't so often entertaining."
-next = "2"
+
 
 [junipers_charm]
 refresh = "1y"
