@@ -74,12 +74,12 @@ portrait = "annoyance"
 effect = "sigh"
 local = "I hope I have no reason to be worried you’ll come in here looking ill."
 
-[juniper_crushing.vj5hv4j6]
+[juniper_crushing.vj6hv4j6]
 portrait = "raised_eyebrow"
 local = "Juniper's been asking me how you've been doing. Apparently, she needs my professional opinion..."
-next = "vj5hv4j6_1"
+next = "vj6hv4j6_1"
 
-[juniper_crushing.vj5hv4j6_1]
+[juniper_crushing.vj6hv4j6_1]
 portrait = "neutral_blush"
 local = "I suppose you've made quite an impression on her."
 
