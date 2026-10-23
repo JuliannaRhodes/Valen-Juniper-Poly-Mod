@@ -61,14 +61,6 @@ local = "If she makes you happy then I'm glad."
 
 [juniper_crushing.vj6hv4j4]
 portrait = "think"
-local = "Juniper mentioned you the other day. Something about being a good test subject..."
-next = "vj6hv4j4_1"
-
-[juniper_crushing.vj6hv4j4_1]
-portrait = "
-
-[juniper_crushing.vj6hv4j4]
-portrait = "think"
 local = "Juniper mentioned you the other day."
 next = "vj6hv4j4_1"
 
@@ -80,23 +72,75 @@ next = "vj6hv4j4_2"
 [juniper_crushing.vj6hv4j4_2]
 portrait = "annoyance" 
 effect = "sigh"
-local = "I hope I have no reason to be worried you’ll come in here looking ill."
+local = "I hope I have no reason to be worried you’ll come in here looking ill."'
 
+[juniper_crushing.vj5hv4j6]
+portrait = "raised_eyebrow"
+local = "Juniper's been asking me how you've been doing. Apparently, she needs my professional opinion..."
+next = "vj5hv4j6_1"
 
-[juniper_crushing_vj8h]
-# Conversation had the following conditions
-#     (require) Valen is dating juniper 
-refresh = "3m"
-requires = [
-	{ val_juni_lvl = 8 },
-]
+[juniper_crushing.vj5hv4j6_1]
+portrait = "neutral_blush"
+local = "I suppose you've made quite an impression on her."
+
+[juniper_crushing.vj6hv6j8]
+portrait = "neutral"
+local = "Hey [Ari]. I thought I should tell you something, as your friend. 
+next = "vj6hv6j8_1"
+
+[juniper_crushing.vj6hv6j8_1]
+portrait = "think"
+local = "I know Juniper isn't exactly forthcoming with her feelings..."
+next = "vj6hv6j8_2"
+
+[juniper_crushing.vj6hv6j8_2]
 portrait = "happy"
-local = "You know, Juniper may pretend otherwise, but she really likes you."
-next = "vj8h_1"
+local = "But I've noticed she's been acting a little differently around you."
+next = "vj6hv6j8_3"
 
-[juniper_crushing_vj8h_1]
-portrait = "happy_blush"
+[juniper_crushing.vj6hv6j8_3]
+portrait = "raised_eyebrow"
+local = "I'd like to think you've found your way into her fickle heart."
 
+[juniper_crushing.vj6hv8j8]
+portrait = "think"
+local = "I suppose Juniper must have some redeeming qualities, if she's managed to win you over so thoroughly."
+next = "vj6hv8j8_1"
 
+[juniper_crushing.vj6hv8j8_1]
+portrait = "caring_brows_special"
+local = "I must admit it's nice to see you so happy." 
+
+[juniper_crushing.vj8hv4j8]
+portrait = "sincere_special"
+local = "So...Juniper told me she has feelings for you."
+next = "vj8hv4j8_1
+
+[juniper_crushing.vj8hv4j8_1]
+portrait = "mad"
+local = "She's not always the easiest person to understand, but I hope I can trust you to give her the patience she deserves."
+
+[juniper_crushing.vj8hv6j8]
+portrait = "raised_eyebrow"
+local = "You know, Juniper may pretend otherwise sometimes, but she really does care for you."
+next = "vj8hv6j8_1"
+
+[juniper_crushing.vj8hv6j8_1]
+portrait = "happy"
+local = "She doesn't let just anyone get close to her, but out of anyone she could have grown so fond of... I'm glad it's you."
+
+[juniper_crushing.vj8hv8j8]
+portrait = "raised_eyebrow_blush"
+local = "You and Juniper have been spending quite a lot of time together lately..."
+next = "vj8hv8j8_1"
+
+[juniper_crushing.vj8hv8j8_1]
+portrait = "caring_special"
+local = "I suppose I can't blame her for wanting your attention."
+next = "vj8hv8j8_2"
+
+[juniper_crushing.vj8hv8j8_2]
+portrait = "flirty_wink"
+local = "Though, if you're going to keep stealing her attention, I might have to steal a little of yours."
 
 
