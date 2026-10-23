@@ -1,0 +1,8 @@
+
+[portraits]
+	annoyance = ["spring", "summer", "autumn", "winter", "beach"]
+	concerned = ["spring", "summer", "autumn", "winter", "beach"]
+	disappointed = ["spring", "summer", "autumn", "winter", "beach"]
+	flirty_wink = ["spring", "summer", "autumn", "winter", "beach"]
+	flustered = ["spring", "summer", "autumn", "winter", "beach"]
+	yikes = ["spring", "summer", "autumn", "winter", "beach"]

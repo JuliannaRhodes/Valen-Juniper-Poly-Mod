@@ -52,7 +52,7 @@ effect = "angry"
 local = "It's infuriating."
 
 [juniper_crushing.vj4hv8j8]
-portrait = "dissapointed"
+portrait = "disappointed"
 local = "I still don't understand what you see in Juniper but I suppose that's not really my decision to make."
 next = "vj4hv8j8_1"
 
