@@ -1,2 +1,4 @@
 [asset_properties.initial_data]
 
+## added dialogue flags
+seen_juniper_crushing = false 

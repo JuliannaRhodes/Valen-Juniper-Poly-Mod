@@ -1,6 +1,4 @@
 [juniper_schooling]
-# Conversation had the following conditions
-#     (full_penalty) juniper is near
 refresh = "1y"
 requires = [
 	{ npc = "valen" },

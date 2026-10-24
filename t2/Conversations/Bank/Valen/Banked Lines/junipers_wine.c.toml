@@ -1,7 +1,4 @@
 [juniper_wine]
-# Conversation had the following conditions
-#     valen is at the inn
-#	  valen is drinking wine
 refresh = "2m"
 requires = [
 	{ npc = "valen" },
