@@ -4,18 +4,82 @@ refresh = "1y"
 portrait = "annoyance"
 local = "I'm surprised you can stand to be around Juniper for so long."
 requires = [
-    { npc = "valen" },
-    { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "four_hearts" },
-    { valen_heart_level = 5, comparator = ">=" },
-    { valen_heart_level = 8, comparator = "<" },
-    { juniper_heart_level = 5, comparator = ">=" },
-    { juniper_heart_level = 8, comparator = "<" },
-    { seen_juniper_crushing = false },
+	{ npc = "valen" },
+	{ valen_zone = "<juniper_zone>", comparator = "!=" },
+	{ valen_heart_level = 4, comparator = ">=" }, 
 ]
-next = "1"
+next = [
+    { target = "vj4hv6j6", requires = [
+        { valen_juniper_hearts = "four_hearts" },
+        { valen_heart_level = 5, comparator = ">=" },
+        { valen_heart_level = 8, comparator = "<" },
+        { juniper_heart_level = 5, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = "<" }
+    ] },
+    { target = "vj4hv8j6", requires = [
+        { valen_juniper_hearts = "four_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { valen_heart_level = 10, comparator = "<" },
+        { juniper_heart_level = 5, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = "<" }
+    ] },
+    { target = "vj4hv8j8", requires = [
+        { valen_juniper_hearts = "four_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { valen_heart_level = 10, comparator = "<" },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj6hv4j4", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 4 },
+        { juniper_heart_level = 4 }
+    ] },
+    { target = "vj6hv4j6", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 4 },
+        { juniper_heart_level = 5, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = "<" }
+    ] },
+    { target = "vj6hv6j8", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 5, comparator = ">=" },
+        { valen_heart_level = 8, comparator = "<" },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj6hv8j8", requires = [
+        { valen_juniper_hearts = "six_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = ">=" }
+    ] },
+    { target = "vj8hv4j8", requires = [
+        { valen_juniper_hearts = "eight_hearts" },
+        { valen_heart_level = 4 },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj8hv6j8", requires = [
+        { valen_juniper_hearts = "eight_hearts" },
+        { valen_heart_level = 5, comparator = ">=" },
+        { valen_heart_level = 8, comparator = "<" },
+        { juniper_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 10, comparator = "<" }
+    ] },
+    { target = "vj8hv8j8", requires = [
+        { valen_juniper_hearts = "eight_hearts" },
+        { valen_heart_level = 8, comparator = ">=" },
+        { juniper_heart_level = 8, comparator = ">=" }
+    ] },
+    { target = "1", requires = [] }
+]
 
-[juniper_crushing_vj4hv6j6.1]
+[juniper_crushing.vj4hv6j6]
+portrait = "annoyance"
+local = "I'm surprised you can stand to be around Juniper for so long."
+next = "vj4hv6j6_1"
+
+[juniper_crushing.vj4hv6j6_1]
 portrait = "ugh"
 local = "She's... a lot."
 next = "2"
