@@ -1,7 +1,6 @@
 [juniper_crushing_vj4hv6j6]
 refresh = "1y"
 portrait = "annoyance"
-local = "I'm surprised you can stand to be around Juniper for so long."
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
@@ -12,6 +11,7 @@ requires = [
     { juniper_heart_level = 8, comparator = "<" },
     { seen_juniper_crushing_vj4hv6j6 = false },
 ]
+local = "I'm surprised you can stand to be around Juniper for so long."
 next = "1"
 
 [juniper_crushing_vj4hv6j6.1]

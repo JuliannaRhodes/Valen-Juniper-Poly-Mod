@@ -15,3 +15,43 @@ next = "2"
 [juniper_borrowing.2]
 portrait = "ugh"
 local = "Though I suspect I'll have to visit her myself if I want the rest."
+
+[juniper_borrowing_clothes]
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ val_juni_lvl = 8 },
+	{ any = [{ season = "fall" }, { season = "winter" }] },
+]
+portrait = "think"
+local = "I let Juniper borrow one of my coats the other day."
+next = [
+    { target = "1", requires = [{ season = "fall" }] },
+	{ target = "2", requires = [] },
+]
+
+[juniper_borrowing_clothes.1]
+portrait = "disappointed"
+local = "Apparently, she thought her attire was perfectly fine for a walk in the middle of autumn."
+next = "3"
+
+[juniper_borrowing_clothes.2]
+portrait = "disappointed"
+local = "Apparently, she thought her attire was perfectly fine for a walk in the middle of winter."
+next = "3"
+
+[juniper_borrowing_clothes.3]
+portrait = "flustered"
+local = "I had to practically force her to take it. Honestly, I don't know how she manages to forget the weather exists."
+next = "4"
+
+[juniper_borrowing_clothes.4]
+portrait = "raised_eyebrow_blush"
+local = "Though I have to admit...the color rather suited her."
+next = [
+    { target = "5", requires = [{valen_heart_level = 8, comparator = ">="}, {juniper_heart_level = 8, comparator = ">="}] },
+]
+
+[juniper_borrowing_clothes.5]
+portrait = "disappointed"
+local = "Perhaps you could talk some sense into her before she gets hypothermia?"
