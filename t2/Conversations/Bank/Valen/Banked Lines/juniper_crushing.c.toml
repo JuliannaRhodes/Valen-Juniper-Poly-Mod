@@ -1,85 +1,20 @@
-# Four-heart relationship: Valen 5-7, Juniper 5-7
 [juniper_crushing_vj4hv6j6]
 refresh = "1y"
 portrait = "annoyance"
 local = "I'm surprised you can stand to be around Juniper for so long."
 requires = [
-	{ npc = "valen" },
-	{ valen_zone = "<juniper_zone>", comparator = "!=" },
-	{ valen_heart_level = 4, comparator = ">=" }, 
+    { npc = "valen" },
+    { valen_zone = "<juniper_zone>", comparator = "!=" },
+    { val_juni_lvl = 4 },
+    { valen_heart_level = 5, comparator = ">=" },
+    { valen_heart_level = 8, comparator = "<" },
+    { juniper_heart_level = 5, comparator = ">=" },
+    { juniper_heart_level = 8, comparator = "<" },
+    { seen_juniper_crushing_vj4hv6j6 = false },
 ]
-next = [
-    { target = "vj4hv6j6", requires = [
-        { valen_juniper_hearts = "four_hearts" },
-        { valen_heart_level = 5, comparator = ">=" },
-        { valen_heart_level = 8, comparator = "<" },
-        { juniper_heart_level = 5, comparator = ">=" },
-        { juniper_heart_level = 8, comparator = "<" }
-    ] },
-    { target = "vj4hv8j6", requires = [
-        { valen_juniper_hearts = "four_hearts" },
-        { valen_heart_level = 8, comparator = ">=" },
-        { valen_heart_level = 10, comparator = "<" },
-        { juniper_heart_level = 5, comparator = ">=" },
-        { juniper_heart_level = 8, comparator = "<" }
-    ] },
-    { target = "vj4hv8j8", requires = [
-        { valen_juniper_hearts = "four_hearts" },
-        { valen_heart_level = 8, comparator = ">=" },
-        { valen_heart_level = 10, comparator = "<" },
-        { juniper_heart_level = 8, comparator = ">=" },
-        { juniper_heart_level = 10, comparator = "<" }
-    ] },
-    { target = "vj6hv4j4", requires = [
-        { valen_juniper_hearts = "six_hearts" },
-        { valen_heart_level = 4 },
-        { juniper_heart_level = 4 }
-    ] },
-    { target = "vj6hv4j6", requires = [
-        { valen_juniper_hearts = "six_hearts" },
-        { valen_heart_level = 4 },
-        { juniper_heart_level = 5, comparator = ">=" },
-        { juniper_heart_level = 8, comparator = "<" }
-    ] },
-    { target = "vj6hv6j8", requires = [
-        { valen_juniper_hearts = "six_hearts" },
-        { valen_heart_level = 5, comparator = ">=" },
-        { valen_heart_level = 8, comparator = "<" },
-        { juniper_heart_level = 8, comparator = ">=" },
-        { juniper_heart_level = 10, comparator = "<" }
-    ] },
-    { target = "vj6hv8j8", requires = [
-        { valen_juniper_hearts = "six_hearts" },
-        { valen_heart_level = 8, comparator = ">=" },
-        { juniper_heart_level = 8, comparator = ">=" }
-    ] },
-    { target = "vj8hv4j8", requires = [
-        { valen_juniper_hearts = "eight_hearts" },
-        { valen_heart_level = 4 },
-        { juniper_heart_level = 8, comparator = ">=" },
-        { juniper_heart_level = 10, comparator = "<" }
-    ] },
-    { target = "vj8hv6j8", requires = [
-        { valen_juniper_hearts = "eight_hearts" },
-        { valen_heart_level = 5, comparator = ">=" },
-        { valen_heart_level = 8, comparator = "<" },
-        { juniper_heart_level = 8, comparator = ">=" },
-        { juniper_heart_level = 10, comparator = "<" }
-    ] },
-    { target = "vj8hv8j8", requires = [
-        { valen_juniper_hearts = "eight_hearts" },
-        { valen_heart_level = 8, comparator = ">=" },
-        { juniper_heart_level = 8, comparator = ">=" }
-    ] },
-    { target = "1", requires = [] }
-]
+next = "1"
 
-[juniper_crushing.vj4hv6j6]
-portrait = "annoyance"
-local = "I'm surprised you can stand to be around Juniper for so long."
-next = "vj4hv6j6_1"
-
-[juniper_crushing.vj4hv6j6_1]
+[juniper_crushing_vj4hv6j6.1]
 portrait = "ugh"
 local = "She's... a lot."
 next = "2"
@@ -87,7 +22,7 @@ next = "2"
 [juniper_crushing_vj4hv6j6.2]
 portrait = "neutral"
 local = "Let me know if she ever becomes too much for you, alright?"
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj4hv6j6 = true, expires = "2m" }]
 
 
 # Four-heart relationship: Valen 8-9, Juniper 5-7
@@ -98,12 +33,12 @@ local = "I really don't understand why you spend so much time with Juniper."
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "four_hearts" },
+    { val_juni_lvl = 4 },
     { valen_heart_level = 8, comparator = ">=" },
     { valen_heart_level = 10, comparator = "<" },
     { juniper_heart_level = 5, comparator = ">=" },
     { juniper_heart_level = 8, comparator = "<" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj4hv8j6 = false },
 ]
 next = "1"
 
@@ -116,7 +51,7 @@ next = "2"
 portrait = "mad"
 effect = "angry"
 local = "It's infuriating."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj4hv8j6 = true, expires = "2m" }]
 
 
 # Four-heart relationship: Valen 8-9, Juniper 8-9
@@ -127,19 +62,19 @@ local = "I still don't understand what you see in Juniper but I suppose that's n
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "four_hearts" },
+    { val_juni_lvl = 4 },
     { valen_heart_level = 8, comparator = ">=" },
     { valen_heart_level = 10, comparator = "<" },
     { juniper_heart_level = 8, comparator = ">=" },
     { juniper_heart_level = 10, comparator = "<" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj4hv8j8 = false },
 ]
 next = "1"
 
 [juniper_crushing_vj4hv8j8.1]
 portrait = "caring_brows_special"
 local = "If she makes you happy then I'm glad."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj4hv8j8 = true, expires = "2m" }]
 
 
 # Six-heart relationship: Valen 4, Juniper 4
@@ -150,10 +85,10 @@ local = "Juniper mentioned you the other day."
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "six_hearts" },
+    { val_juni_lvl = 6 },
     { valen_heart_level = 4 },
     { juniper_heart_level = 4 },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj6hv4j4 = false },
 ]
 next = "1"
 
@@ -166,7 +101,7 @@ next = "2"
 portrait = "annoyance"
 effect = "sigh"
 local = "I hope I have no reason to be worried you’ll come in here looking ill."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj6hv4j4 = true, expires = "2m" }]
 
 
 # Six-heart relationship: Valen 4, Juniper 5-7
@@ -177,18 +112,18 @@ local = "Juniper's been asking me how you've been doing. Apparently, she needs m
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "six_hearts" },
+    { val_juni_lvl = 6 },
     { valen_heart_level = 4 },
     { juniper_heart_level = 5, comparator = ">=" },
     { juniper_heart_level = 8, comparator = "<" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj6hv4j6 = false },
 ]
 next = "1"
 
 [juniper_crushing_vj6hv4j6.1]
 portrait = "neutral_blush"
 local = "I suppose you've made quite an impression on her."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj6hv4j6 = true, expires = "2m" }]
 
 
 # Six-heart relationship: Valen 5-7, Juniper 8-9
@@ -199,12 +134,12 @@ local = "Hey [Ari]. I thought I should tell you something, as your friend."
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "six_hearts" },
+    { val_juni_lvl = 6 },
     { valen_heart_level = 5, comparator = ">=" },
     { valen_heart_level = 8, comparator = "<" },
     { juniper_heart_level = 8, comparator = ">=" },
     { juniper_heart_level = 10, comparator = "<" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj6hv6j8 = false },
 ]
 next = "1"
 
@@ -221,7 +156,7 @@ next = "3"
 [juniper_crushing_vj6hv6j8.3]
 portrait = "raised_eyebrow"
 local = "I'd like to think you've found your way into her fickle heart."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj6hv6j8 = true, expires = "2m" }]
 
 
 # Six-heart relationship: Valen 8+, Juniper 8+
@@ -232,17 +167,17 @@ local = "I suppose Juniper must have some redeeming qualities, if she's managed 
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "six_hearts" },
+    { val_juni_lvl = 6 },
     { valen_heart_level = 8, comparator = ">=" },
     { juniper_heart_level = 8, comparator = ">=" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj6hv8j8 = false },
 ]
 next = "1"
 
 [juniper_crushing_vj6hv8j8.1]
 portrait = "caring_brows_special"
 local = "I must admit it's nice to see you so happy."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj6hv8j8 = true, expires = "2m" }]
 
 
 # Eight-heart relationship: Valen 4, Juniper 8-9
@@ -253,18 +188,18 @@ local = "So...Juniper told me she has feelings for you."
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "eight_hearts" },
+    { val_juni_lvl = 8 },
     { valen_heart_level = 4 },
     { juniper_heart_level = 8, comparator = ">=" },
     { juniper_heart_level = 10, comparator = "<" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj8hv4j8 = false },
 ]
 next = "1"
 
 [juniper_crushing_vj8hv4j8.1]
 portrait = "mad"
 local = "She's not always the easiest person to understand, but I hope I can trust you to give her the patience she deserves."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj8hv4j8 = true, expires = "2m" }]
 
 
 # Eight-heart relationship: Valen 5-7, Juniper 8-9
@@ -275,19 +210,19 @@ local = "You know, Juniper may pretend otherwise sometimes, but she really does 
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "eight_hearts" },
+    { val_juni_lvl = 8 },
     { valen_heart_level = 5, comparator = ">=" },
     { valen_heart_level = 8, comparator = "<" },
     { juniper_heart_level = 8, comparator = ">=" },
     { juniper_heart_level = 10, comparator = "<" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj8hv6j8 = false },
 ]
 next = "1"
 
 [juniper_crushing_vj8hv6j8.1]
 portrait = "happy"
 local = "She doesn't let just anyone get close to her, but out of anyone she could have grown so fond of... I'm glad it's you."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj8hv6j8 = true, expires = "2m" }]
 
 
 # Eight-heart relationship: Valen 8+, Juniper 8+
@@ -298,10 +233,10 @@ local = "You and Juniper have been spending quite a lot of time together lately.
 requires = [
     { npc = "valen" },
     { valen_zone = "<juniper_zone>", comparator = "!=" },
-    { valen_juniper_hearts = "eight_hearts" },
+    { val_juni_lvl = 8 },
     { valen_heart_level = 8, comparator = ">=" },
     { juniper_heart_level = 8, comparator = ">=" },
-    { seen_juniper_crushing = false },
+    { seen_juniper_crushing_vj8hv8j8 = false },
 ]
 next = "1"
 
@@ -313,6 +248,6 @@ next = "2"
 [juniper_crushing_vj8hv8j8.2]
 portrait = "flirty_wink"
 local = "Though, if you're going to keep stealing her attention, I might have to steal a little of yours."
-writes = [{ seen_juniper_crushing = true, expires = "2m" }]
+writes = [{ seen_juniper_crushing_vj8hv8j8 = true, expires = "2m" }]
 
 

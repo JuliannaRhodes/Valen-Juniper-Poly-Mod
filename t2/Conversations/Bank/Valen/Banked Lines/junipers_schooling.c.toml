@@ -3,18 +3,24 @@ refresh = "1y"
 requires = [
 	{ npc = "valen" },
 	{ valen_zone = "<juniper_zone>", comparator = "!=" },
-	{ val_juni_lvl = 8 },
 ]
 portrait = "think"
 local = "It takes dedication to see years of schooling through."
-next = "1"
+next =  [
+    { target = "vj8h", requires = [{ val_juni_lvl = 8 }] },
+	{ target = "1", requires = [] },
+]
 
 [juniper_schooling.1]
+portrait = "think"
+local = "I think Juniper may be the only one in town that's gone to school."
+
+[juniper_schooling.vj8h]
 portrait = "think_blush"
 local = "Juniper and I have that in common at least. It's quite respectable."
-next = "2"
+next = "vj8h_1"
 
-[juniper_schooling.2]
+[juniper_schooling.vj8h_1]
 portrait = "happy_blush"
 effect = "sweat"
 local = "Don't tell her I said that."
