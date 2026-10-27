@@ -38,7 +38,6 @@ requires = [
 	{ npc = "valen" },
 	{ valen_zone = "<juniper_zone>", comparator = "!=" },
 	{ val_juni_lvl = 6 },
-
 ]
 portrait = "ugh"
 local = "Juniper is an exceptionally stubborn woman."

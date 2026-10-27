@@ -1,0 +1,26 @@
+[ari_birthday_valen_spouse.1]
+next = [
+    { target = "vj8h", requires = [{valen_juniper_hearts = "eight_hearts"}, { juniper_heart_level = 8, comparator = ">=" },
+    { juniper_heart_level = 10, comparator = "<" },] },
+    { target = "1", requires = [] }
+]
+
+[ari_birthday_valen_spouse.vj8h]
+portrait = "happy_blush"
+effect = "drop"
+local = "I may have been a little ambitious with the portions..."
+next = "vj8h_1"
+
+[ari_birthday_valen_spouse.vj8h_1]
+portrait = "caring_brows_special"
+local = "But...I was thinking we could spend the day together. You, me, and Juniper, if she's free."
+next = "vj8h_2"
+
+[ari_birthday_valen_spouse.vj8h_2]
+portrait = "happy_blush"
+local = "I mean, as long as I get to spend the day with you, I'm happy."
+next = "vj8h_3"
+
+[ari_birthday_valen_spouse.vj8h_3]
+portrait = "flirty_wink"
+local = "Although today is not about me so, what would you like to do, dearest? Let me spoil you."
