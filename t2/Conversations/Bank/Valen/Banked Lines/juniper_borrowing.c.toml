@@ -43,15 +43,20 @@ next = "3"
 [juniper_borrowing_clothes.3]
 portrait = "flustered"
 local = "I had to practically force her to take it. Honestly, I don't know how she manages to forget the weather exists."
-next = "4"
+next = [
+    { target = "4", requires = [{valen_heart_level = 8, comparator = ">="}, {juniper_heart_level = 8, comparator = ">="}] },
+	{ target = "6", requires = [] },
+]
 
 [juniper_borrowing_clothes.4]
 portrait = "raised_eyebrow_blush"
 local = "Though I have to admit...the color rather suited her."
-next = [
-    { target = "5", requires = [{valen_heart_level = 8, comparator = ">="}, {juniper_heart_level = 8, comparator = ">="}] },
-]
+next = "5"
 
 [juniper_borrowing_clothes.5]
 portrait = "disappointed"
 local = "Perhaps you could talk some sense into her before she gets hypothermia?"
+
+[juniper_borrowing_clothes.6]
+portrait = "raised_eyebrow_blush"
+local = "Though I have to admit...the color rather suited her."

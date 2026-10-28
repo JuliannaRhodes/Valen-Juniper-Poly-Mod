@@ -1,8 +1,33 @@
+[ari_birthday_valen_spouse]
+priority = "max"
+refresh = "3m"
+requires = [
+	{ npc = "valen" },
+	{ is_ari_birthday = true },
+	{ valen_is_spouse = true },
+	{ valen_birthday_gate = false },
+	{  },
+	{  },
+	{  },
+	{  },
+	{  }
+]
+writes = [{ valen_birthday_gate = true, expires = "3m" }]
+actions = [
+	{ bark = { bark = "heart", npc = "valen" } },
+	{ item = "sushi_platter" },
+]
+portrait = "happy_blush"
+local = "Happy Birthday, [Ari]!"
+next = "1"
+
 [ari_birthday_valen_spouse.1]
+portrait = "think_blush"
+local = "I put together this =Sushi Platter= for you, I hope you enjoy it."
 next = [
     { target = "vj8h", requires = [{valen_juniper_hearts = "eight_hearts"}, { juniper_heart_level = 8, comparator = ">=" },
     { juniper_heart_level = 10, comparator = "<" },] },
-    { target = "1", requires = [] }
+    { target = "2", requires = [] }
 ]
 
 [ari_birthday_valen_spouse.vj8h]
