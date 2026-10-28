@@ -30,6 +30,10 @@ next = [
     { target = "2", requires = [] }
 ]
 
+[ari_birthday_valen_spouse.2]
+portrait = "caring_special"
+local = "Let me know what else you'd like to do today!"
+
 [ari_birthday_valen_spouse.vj8h]
 portrait = "happy_blush"
 effect = "drop"
