@@ -3,6 +3,7 @@ refresh = "2m"
 requires = [
 	{ npc = "valen" },
 	{ location = "inn" },
+	{ drinkers_fnati = 4 },
 	{ any = [
 		{ valen_drinking = "wine" },
 		{ valen_drinking = "white_wine" },
