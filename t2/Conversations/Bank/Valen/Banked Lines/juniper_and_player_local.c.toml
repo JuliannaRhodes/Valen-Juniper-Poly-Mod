@@ -2,6 +2,9 @@
 refresh = "2m"
 requires = [
 	{ npc = "valen" },
+	{ val_juni_lvl = 8 },
+    { valen_heart_level = 8, comparator = ">=" },
+    { juniper_heart_level = 8, comparator = ">=" },
 ]
 portrait = "think"
 local = "You get to know a town quite well when you've spent almost your whole life in it."
