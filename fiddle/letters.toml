@@ -14,7 +14,7 @@ And, if you wouldn't mind, perhaps you could help me keep Juniper out of trouble
 See you soon,
 Valen"""
 
-	quest_to_start = "foraging_with_friend"
+	quest_to_start = "foraging_with_friends"
 
     [foraging_with_friends.requirements] 
         completed_quest = { quest = [
