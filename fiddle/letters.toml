@@ -17,4 +17,4 @@ Valen"""
 	quest_to_start = "foraging_with_friends"
 
     [foraging_with_friends.requirements] 
-        completed_quest = ["becoming_junipers_guinea_pig", "the_annual_check-up" ]
+        completed_quest = ["becoming_junipers_guinea_pig", "the_annual_check_up" ]
