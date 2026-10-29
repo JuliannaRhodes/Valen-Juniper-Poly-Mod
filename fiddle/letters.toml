@@ -17,4 +17,6 @@ See you soon,"""
 
     [foraging_with_friends.requirements] 
         completed_quest = ["becoming_junipers_guinea_pig", "the_annual_check_up" ]
-        val_juni_lvl = 2
+        val_juni_lvl = 0
+		world_fact_is = { weather = "pleasant"}
+		invert.or = [{is_day_type = "saturday"}, {is_festival_day = true}]
