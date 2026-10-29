@@ -18,6 +18,6 @@ Valen"""
 
     [foraging_with_friends.requirements] 
         completed_quest = { quest = [
-            "becoming_junipers_guinea_pig",
-            "the_annual_check-up"
+            "becoming_junipers_guinea_pig", days_after = 1
+            "the_annual_check-up", days_after = 1
 ]}
