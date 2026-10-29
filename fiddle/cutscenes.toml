@@ -1,0 +1,4 @@
+[valen_juniper_poly_two_hearts]
+	test_target = "none"
+	has_conversation = true
+	end_position = "eastern_road/north_cutscene_exit"

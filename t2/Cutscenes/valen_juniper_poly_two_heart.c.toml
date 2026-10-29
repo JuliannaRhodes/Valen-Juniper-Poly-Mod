@@ -1,6 +1,13 @@
 [valen_juniper_poly_two_hearts]
 kind = "gameplay_triggered"
 writes = [{ valen_juniper_poly_hearts = "two_hearts" }, { val_juni_poly_lvl = 2 } ]
-speaker = ""
-local = ""
-next = ""
+speaker = "juniper"
+portrait = "annoyed"
+local = "And miss the opportunity to search the ruins? Some of the more unusual ingredients grow in places where the magical currents are stronger"
+next = "1"
+
+[valen_juniper_poly_two_hearts.1]
+speaker = "valen"
+portrait = "mad"
+effect = "angry"
+local = "We're gathering herbs, Juniper. Not embarking on some expedition to some forgotten temple."

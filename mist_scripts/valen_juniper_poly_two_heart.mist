@@ -1,0 +1,30 @@
+scene(eastern_road);
+camera_position(vjp2h_camera1);
+place_actor(ari, east, vjp2h_ari_entrance);
+place_actor(juniper, south, vjp2h_juniper_bridge);
+place_actor(valen, north, vjp2h_valen_bridge);
+setup_prop(foraging_basket1);
+request_music_play(juniper);
+
+sim {
+    {
+        wait(0.25);
+        fade_in(2);
+    }
+    {
+        walk_slow(ari,vjp2h_ari_start);
+        face(ari, east);
+    }
+    {
+        wait(1);
+        free bark_speech(valen, angry);
+    }
+    {
+        wait(1.75);
+        next_line(); //
+    }
+    {
+        pan_camera(3, jp2h_camera2);
+    }
+
+}
