@@ -3,16 +3,15 @@
 	subject_line = "A Foraging Invitation"
 	local = """[Ari],
 
-Juniper and I are planning to gather some herbs outside of town, and I thought you might like to join us.
+Juniper and I are planning to gather some herbs outside of town, and I thought you might like to join us. I would appreciate the extra help and company. 
 
 She has a few things she'd like to look for, and there are some medicinal ingredients I'd like to collect while we're out. It should be a pleasant afternoon, provided Juniper doesn't get too carried away.
 
-Meet us near the eastern forest when you have a moment. I would appreciate the extra help and company.
+Meet us near the eastern forest when you have a moment.
 
 And, if you wouldn't mind, perhaps you could help me keep Juniper out of trouble.
 
-See you soon,
-Valen"""
+See you soon,"""
 
 	quest_to_start = "foraging_with_friends"
 

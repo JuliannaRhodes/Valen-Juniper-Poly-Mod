@@ -12,7 +12,7 @@ sim {
         fade_in(2);
     }
     {
-        walk_slow(ari,vjp2h_ari_start);
+        walk_slow(ari, vjp2h_ari_start);
         face(ari, east);
     }
     {
@@ -24,7 +24,7 @@ sim {
         next_line(); //
     }
     {
-        pan_camera(3, jp2h_camera2);
+        pan_camera(3, vjp2h_camera2);
     }
 
 }
