@@ -1,0 +1,8 @@
+[foraging_with_friends]
+name = "Foraging with Friends"
+npc_for_icon = "valen"
+description = "Valen asked me to meet her and Juniper at the Eastern Forest to go foraging."
+
+	[[foraging_with_friends.stages]]
+		objective_description = "Meet Valen at the Eastern Forest."
+		queries = [{ cutscene = "valen_juniper_poly_two_hearts", location = "eastern_road" }]
