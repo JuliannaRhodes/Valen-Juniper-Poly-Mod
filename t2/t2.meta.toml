@@ -1,4 +1,8 @@
 [asset_properties.initial_data]
 
+## valen juni initializers
+valen_juniper_poly_hearts = "undefined"
+
 ## added dialogue flags
+val_juni_poly_lvl = 0
 seen_juniper_crushing = false 
