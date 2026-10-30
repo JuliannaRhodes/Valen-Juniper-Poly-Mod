@@ -13,6 +13,7 @@ sim {
     }
     {
         walk_slow(ari, vjp2h_ari_start);
+        face(ari, east);
     }
     {
         wait(1);
@@ -28,6 +29,9 @@ sim {
 }
 sim {
     {
+        next_line(); //
+        next_line(); //
+        next_line(); //
         next_line(); //
         next_line(); //
         next_line(); //
