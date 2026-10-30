@@ -38,6 +38,8 @@ sim {
         next_line(); //
         next_line(); //
     }
+}
+sim {
     {
         free bark_speech(juniper, exclamation_mark);
         wait(0.5);
