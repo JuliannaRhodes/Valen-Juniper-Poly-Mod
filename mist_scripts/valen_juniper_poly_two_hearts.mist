@@ -1,5 +1,5 @@
 scene(eastern_road);
-camera_position(vjp2h_camera1);
+camera_position(vjp2h_camera2);
 place_actor(ari, east, vjp2h_ari_entrance);
 place_actor(juniper, south, vjp2h_juniper_bridge);
 place_actor(valen, north, vjp2h_valen_bridge);
@@ -12,10 +12,6 @@ sim {
         fade_in(2);
     }
     {
-        walk_slow(ari, vjp2h_ari_start);
-        face(ari, east);
-    }
-    {
         wait(4);
         free bark_speech(valen, angry);
     }
@@ -23,15 +19,15 @@ sim {
         wait(1.75);
         next_line(); //0
     }
-    {
-        pan_camera(3, vjp2h_camera2);
-    }
+
 }
 
 next_line(); // 1
 next_line(); // 2
 next_line(); // 3
 next_line(); // 4
+walk_slow(ari, vjp2h_ari_start);
+face(ari, east);
 next_line(); // 5
 next_line(); // 6
 next_line(); // 7
@@ -43,6 +39,7 @@ sim {
         free bark_speech(juniper, exclamation_mark);
         wait(0.5);
         face(juniper, west);
+        wait(0.5);
     }
     {
         next_line(); // 10
@@ -54,7 +51,7 @@ next_line(); // 11
 
 free bark_speech(ari, cute_face);
 next_line(); //12
-wait (3);
+wait (0.75);
 
 sim {
         {face(juniper, south);

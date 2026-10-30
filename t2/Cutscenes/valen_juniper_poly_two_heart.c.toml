@@ -33,7 +33,7 @@ next = "5"
 [valen_juniper_poly_two_hearts.5]
 speaker = "valen"
 portrait = "annoyance"
-local = "Right...Anyways."
+local = "Right. Anyways."
 next = "6"
 
 [valen_juniper_poly_two_hearts.6]
@@ -45,7 +45,7 @@ next = "7"
 [valen_juniper_poly_two_hearts.7]
 speaker = "valen"
 portrait = "neutral"
-local = "We go out for an hour or two and return in time with everything we set out to find."
+local = "We can spend an afternoon gathering what we need and be back before the day gets away from us."
 next = "8"
 
 [valen_juniper_poly_two_hearts.8]
@@ -57,7 +57,7 @@ next = "9"
 [valen_juniper_poly_two_hearts.9]
 speaker = "valen"
 portrait = "annoyance"
-local = "Right.. And recklessness is what people call adventure when they don't have to deal with the consequences."
+local = "Right... And recklessness is what people call adventure when they don't have to deal with the consequences."
 next = "10"
 
 [valen_juniper_poly_two_hearts.10]
