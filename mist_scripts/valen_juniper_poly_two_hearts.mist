@@ -26,5 +26,14 @@ sim {
     {
         pan_camera(3, vjp2h_camera2);
     }
+}
+sim {
+    {
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+    }
 
 }
