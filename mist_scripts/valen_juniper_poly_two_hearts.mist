@@ -37,10 +37,16 @@ sim {
         next_line(); //
         next_line(); //
         next_line(); //
+    }
+    {
+        free bark_speech(juniper, exclamation_mark);
+        wait(0.5);
+		face(juniper, west);
+    }
+    {
         next_line(); //
-        next_line(); //
-        next_line(); //
-        next_line(); //
+        wait(2);
+		face(valen, west);
     }
 
 }
