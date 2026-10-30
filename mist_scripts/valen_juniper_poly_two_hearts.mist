@@ -16,7 +16,7 @@ sim {
         face(ari, east);
     }
     {
-        wait(1);
+        wait(4);
         free bark_speech(valen, angry);
     }
     {
@@ -27,18 +27,17 @@ sim {
         pan_camera(3, vjp2h_camera2);
     }
 }
-sim {
-    {
-        next_line(); //2
-        next_line(); //3
-        next_line(); //4
-        next_line(); //5
-        next_line(); //6
-        next_line(); //7
-        next_line(); //8
-        next_line(); //9
-    }
-}
+
+next_line(); //2
+next_line(); //3
+next_line(); //4
+next_line(); //5
+next_line(); //6
+next_line(); //7
+next_line(); //8
+next_line(); //9
+wait(2);
+
 sim {
     {
         free bark_speech(juniper, exclamation_mark);
@@ -47,18 +46,15 @@ sim {
     }
     {
         next_line(); //10
-        wait(2);
+        wait(3);
 		face(valen, west);
         next_line(); //11
     }
 }
 free bark_speech(ari, cute_face);
-sim {
-    {
-        next_line(); //12
-        wait (3);
-    }
-}
+next_line(); //12
+wait (3);
+
 sim {
         {face(juniper, south);
 		animate(juniper, laugh);

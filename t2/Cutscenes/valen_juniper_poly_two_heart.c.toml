@@ -51,7 +51,7 @@ next = "8"
 [valen_juniper_poly_two_hearts.8]
 speaker = "juniper"
 portrait = "closed_eyes"
-local = "You know, They say that predictability is just boredom trying to sound respectable."
+local = "You know, they say that predictability is just boredom trying to sound respectable."
 next = "9"
 
 [valen_juniper_poly_two_hearts.9]
