@@ -28,29 +28,30 @@ sim {
     }
 }
 
-next_line(); //2
-next_line(); //3
-next_line(); //4
-next_line(); //5
-next_line(); //6
-next_line(); //7
-next_line(); //8
-next_line(); //9
-wait(2);
+next_line(); // 2
+next_line(); // 3
+next_line(); // 4
+next_line(); // 5
+next_line(); // 6
+next_line(); // 7
+next_line(); // 8
+next_line(); // 9
+
 
 sim {
     {
         free bark_speech(juniper, exclamation_mark);
         wait(0.5);
-		face(juniper, west);
+        face(juniper, west);
     }
     {
-        next_line(); //10
-        wait(3);
-		face(valen, west);
-        next_line(); //11
+        next_line(); // 10
     }
 }
+
+face(valen, west);
+next_line(); // 11
+
 free bark_speech(ari, cute_face);
 next_line(); //12
 wait (3);
@@ -62,6 +63,6 @@ sim {
 		wait(2.25);
 		animate(juniper, idle);
 		face(juniper, west);
-        next_line();
 	}
 }
+next_line(); //13
