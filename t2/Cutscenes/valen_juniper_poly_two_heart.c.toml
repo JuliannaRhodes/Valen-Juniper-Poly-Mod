@@ -3,11 +3,19 @@ kind = "gameplay_triggered"
 writes = [{ valen_juniper_poly_hearts = "two_hearts" }, { val_juni_poly_lvl = 2 } ]
 speaker = "juniper"
 portrait = "annoyed"
-local = "And miss the opportunity to search the ruins? Some of the more unusual ingredients grow in places where the magical currents are stronger"
+local = "And miss the opportunity to search the ruins? The best herbs are where the magical currents are stronger. "
 next = "1"
 
 [valen_juniper_poly_two_hearts.1]
 speaker = "valen"
 portrait = "mad"
 effect = "angry"
-local = "We're gathering herbs, Juniper. Not embarking on some expedition to some forgotten temple."
+local = "We're gathering herbs, Juniper. Not embarking on some expedition to a forgotten temple."
+next = "2"
+
+[valen_juniper_poly_two_hearts.2]
+speaker = "juniper"
+portrait = "snide"
+local = "You say that as though they must be mutually exclusive."
+next = "3"
+
