@@ -51,16 +51,39 @@ next = "8"
 [valen_juniper_poly_two_hearts.8]
 speaker = "juniper"
 portrait = "closed_eyes"
-local = "You know, They say predictability is just boredom trying to sound respectable."
+local = "You know, They say that predictability is just boredom trying to sound respectable."
 next = "9"
 
 [valen_juniper_poly_two_hearts.9]
 speaker = "valen"
 portrait = "annoyance"
-local = "Right.. and recklessness is what people call adventure when they don't have to deal with the consequences."
+local = "Right.. And recklessness is what people call adventure when they don't have to deal with the consequences."
 next = "10"
 
 [valen_juniper_poly_two_hearts.10]
 speaker = "juniper"
 portrait = "neutral"
-local = "Oh! There you are. Thank god."
+local = "Oh! There you are. Thank goodness. I was beginning to think I'd have to spend the entire afternoon listening to Valen."
+next = "11"
+
+[valen_juniper_poly_two_hearts.11]
+speaker = "valen"
+portrait = "neutral"
+local = "Don't listen to her. I'm glad you could make it."
+next =  "12"
+// player has a little heart emoji above head
+
+[valen_juniper_poly_two_hearts.12]
+speaker = "juniper"
+portrait = "happy"
+local  = "As am I. With another pair of hands I can spend less time picking and more time supervising"
+next = "13"
+//juniper laughing
+
+[valen_juniper_poly_two_hearts.13]
+speaker = "juniper"
+portrait = "sly"
+local = "Now, come along! Let's not waste any more time."
+next = "14"
+//juniper ushers the player forwards
+// valen is like ugh okay...

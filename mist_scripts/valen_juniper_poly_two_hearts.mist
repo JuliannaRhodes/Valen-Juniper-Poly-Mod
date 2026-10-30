@@ -21,7 +21,7 @@ sim {
     }
     {
         wait(1.75);
-        next_line(); //
+        next_line(); //1
     }
     {
         pan_camera(3, vjp2h_camera2);
@@ -29,14 +29,14 @@ sim {
 }
 sim {
     {
-        next_line(); //
-        next_line(); //
-        next_line(); //
-        next_line(); //
-        next_line(); //
-        next_line(); //
-        next_line(); //
-        next_line(); //
+        next_line(); //2
+        next_line(); //3
+        next_line(); //4
+        next_line(); //5
+        next_line(); //6
+        next_line(); //7
+        next_line(); //8
+        next_line(); //9
     }
 }
 sim {
@@ -46,9 +46,26 @@ sim {
 		face(juniper, west);
     }
     {
-        next_line(); //
+        next_line(); //10
         wait(2);
 		face(valen, west);
+        next_line(); //11
     }
-
+}
+free bark_speech(ari, cute_face);
+sim {
+    {
+        next_line(); //12
+        wait (3);
+    }
+}
+sim {
+        {face(juniper, south);
+		animate(juniper, laugh);
+		play_sound("SoundEffects/NPCs/Vocal/JuniperLaugh");
+		wait(2.25);
+		animate(juniper, idle);
+		face(juniper, west);
+        next_line();
+	}
 }
