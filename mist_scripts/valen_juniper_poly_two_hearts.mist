@@ -19,3 +19,28 @@ sim {
         wait(1);
         free bark_speech(valen, angry);
     }
+    {
+        wait(1.75);
+        next_line(); //
+    }
+    {
+        pan_camera(3, vjp2h_camera2);
+    }
+}
+sim {
+    {
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+        next_line(); //
+    }
+
+}
