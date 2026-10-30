@@ -71,19 +71,15 @@ speaker = "valen"
 portrait = "neutral"
 local = "Don't listen to her. I'm glad you could make it."
 next =  "12"
-// player has a little heart emoji above head
 
 [valen_juniper_poly_two_hearts.12]
 speaker = "juniper"
 portrait = "happy"
 local  = "As am I. With another pair of hands I can spend less time picking and more time supervising"
 next = "13"
-//juniper laughing
 
 [valen_juniper_poly_two_hearts.13]
 speaker = "juniper"
 portrait = "sly"
 local = "Now, come along! Let's not waste any more time."
-next = "14"
-//juniper ushers the player forwards
-// valen is like ugh okay...
+
