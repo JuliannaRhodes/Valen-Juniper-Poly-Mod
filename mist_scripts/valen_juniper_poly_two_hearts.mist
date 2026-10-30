@@ -21,13 +21,14 @@ sim {
     }
     {
         wait(1.75);
-        next_line(); //1
+        next_line(); //0
     }
     {
         pan_camera(3, vjp2h_camera2);
     }
 }
 
+next_line(); // 1
 next_line(); // 2
 next_line(); // 3
 next_line(); // 4
@@ -36,7 +37,6 @@ next_line(); // 6
 next_line(); // 7
 next_line(); // 8
 next_line(); // 9
-
 
 sim {
     {
