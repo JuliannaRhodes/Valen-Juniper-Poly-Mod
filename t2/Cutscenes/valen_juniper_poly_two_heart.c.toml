@@ -19,3 +19,50 @@ portrait = "snide"
 local = "You say that as though they must be mutually exclusive."
 next = "3"
 
+[valen_juniper_poly_two_hearts.3]
+speaker = "valen"
+portrait = "annoyance"
+local = "What did you say?"
+next = "4"
+
+[valen_juniper_poly_two_hearts.4]
+speaker = "juniper"
+portrait = "happy"
+local = "Nothing!"
+next = "5"
+
+[valen_juniper_poly_two_hearts.5]
+speaker = "valen"
+portrait = "annoyance"
+local = "Right...Anyways"
+next = "6"
+
+[valen_juniper_poly_two_hearts.6]
+speaker = "valen"
+portrait = "think"
+local = "I just think there's nothing wrong with a little predictability."
+next = "7"
+
+[valen_juniper_poly_two_hearts.7]
+speaker = "valen"
+portrait = "neutral"
+local = "We go out for an hour or two and return in time with everything we set out to find."
+next = "8"
+
+[valen_juniper_poly_two_hearts.8]
+speaker = "juniper"
+portrait = "closed_eyes"
+local = "You know, They say predictability is just boredom trying to sound respectable."
+next = "9"
+
+[valen_juniper_poly_two_hearts.9]
+speaker = "valen"
+portrait = "annoyance"
+local = "Right.. and recklessness is what people call adventure when they don't have to deal with the consequences."
+next = "10"
+
+[valen_juniper_poly_two_hearts.10]
+speaker = "juniper"
+portrait = "neutral"
+local = "Oh! There you are. Thank god."
+next = "10"
