@@ -9,7 +9,6 @@ next = "1"
 [valen_juniper_poly_two_hearts.1]
 speaker = "valen"
 portrait = "mad"
-effect = "angry"
 local = "We're gathering herbs, Juniper. Not embarking on some expedition to a forgotten temple."
 next = "2"
 
@@ -34,7 +33,7 @@ next = "5"
 [valen_juniper_poly_two_hearts.5]
 speaker = "valen"
 portrait = "annoyance"
-local = "Right...Anyways"
+local = "Right...Anyways."
 next = "6"
 
 [valen_juniper_poly_two_hearts.6]

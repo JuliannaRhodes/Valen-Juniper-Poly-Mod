@@ -30,8 +30,8 @@
         },
         "foraging_basket1" : {
             "position": [
-                450,
-                2002
+                465,
+                1990
             ],
             "point_type": "prop",
             "direction": 1,
@@ -39,7 +39,7 @@
         },
         "vjp2h_ari_start": {
             "position": [
-                390,
+                395,
                 1989
             ],
             "point_type": "default"
