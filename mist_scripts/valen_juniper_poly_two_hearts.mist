@@ -13,7 +13,7 @@ sim {
     }
     {
         wait(4);
-        free bark_speech(valen, angry);
+        free bark_speech(valen, annoyed);
     }
     {
         wait(1.75);
@@ -26,13 +26,35 @@ next_line(); // 1
 next_line(); // 2
 next_line(); // 3
 next_line(); // 4
-walk_slow(ari, vjp2h_ari_start);
-face(ari, east);
-next_line(); // 5
+
+sim {
+    {
+        free bark_speech(valen, ellipses);
+        next_line(); // 5
+    }
+}
+
 next_line(); // 6
-next_line(); // 7
+        
+sim {
+    {
+        next_line(); // 7
+        free bark_speech(juniper, sleepy);
+    }
+}
+
 next_line(); // 8
-next_line(); // 9
+
+sim {
+    {
+        walk_slow(ari, vjp2h_ari_start);
+        face(ari, east);
+    }
+    {
+        next_line(); // 9
+        wait(0.75);
+    }
+}
 
 sim {
     {
@@ -40,26 +62,40 @@ sim {
         wait(0.5);
         face(juniper, west);
         wait(0.5);
+        free bark_speech(valen, question_mark);
     }
     {
         next_line(); // 10
+        wait(1);
+        free bark_speech(valen, angry);
+        close_textbox();
     }
 }
 
-face(valen, west);
-next_line(); // 11
 
+walk_slow(ari, vjp2h_ari_bridge);
+face(valen, west);
+
+next_line(); // 11
+next_line(); // 12
+wait(0.75);
 free bark_speech(ari, cute_face);
-next_line(); //12
-wait (0.75);
+close_textbox();
+wait(0.75);
+
+next_line(); // 13
+wait(0.75);
+close_textbox();
 
 sim {
-        {face(juniper, south);
-		animate(juniper, laugh);
-		play_sound("SoundEffects/NPCs/Vocal/JuniperLaugh");
-		wait(2.25);
-		animate(juniper, idle);
-		face(juniper, west);
-	}
+    {
+        face(juniper, south);
+        animate(juniper, laugh);
+        play_sound("SoundEffects/NPCs/Vocal/JuniperLaugh");
+        wait(2.25);
+        animate(juniper, idle);
+        face(juniper, west);
+    }
 }
-next_line(); //13
+
+next_line(); // 13

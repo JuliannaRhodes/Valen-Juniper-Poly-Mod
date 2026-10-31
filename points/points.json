@@ -9,7 +9,7 @@
         },
         "vjp2h_ari_entrance": {
             "position": [
-                104,
+                150,
                 1989
             ],
             "point_type": "default"
@@ -30,7 +30,7 @@
         },
         "foraging_basket1" : {
             "position": [
-                465,
+                470,
                 1990
             ],
             "point_type": "prop",
@@ -50,6 +50,13 @@
                 1989
             ],
             "point_type": "camera"
+        },
+        "vjp2h_ari_bridge": {
+            "position": [
+                450,
+                1979
+            ],
+            "point_type": "default"
         }
 
     }

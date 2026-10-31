@@ -21,12 +21,14 @@ next = "3"
 [valen_juniper_poly_two_hearts.3]
 speaker = "valen"
 portrait = "annoyance"
+effect = "sigh"
 local = "What did you say?"
 next = "4"
 
 [valen_juniper_poly_two_hearts.4]
 speaker = "juniper"
 portrait = "happy"
+effect = "cheery"
 local = "Nothing!"
 next = "5"
 
@@ -57,7 +59,7 @@ next = "9"
 [valen_juniper_poly_two_hearts.9]
 speaker = "valen"
 portrait = "annoyance"
-local = "Right... And recklessness is what people call adventure when they don't have to deal with the consequences."
+local = "Right... And recklessness is what people call adventure when they don't have to deal with the consequen-."
 next = "10"
 
 [valen_juniper_poly_two_hearts.10]
@@ -68,17 +70,23 @@ next = "11"
 
 [valen_juniper_poly_two_hearts.11]
 speaker = "valen"
-portrait = "neutral"
-local = "Don't listen to her. I'm glad you could make it."
+portrait = "ugh"
+local = "Don't listen to her."
 next =  "12"
 
 [valen_juniper_poly_two_hearts.12]
-speaker = "juniper"
-portrait = "happy"
-local  = "As am I. With another pair of hands I can spend less time picking and more time supervising"
-next = "13"
+speaker = "valen"
+portrait = "neutral"
+local = " I'm glad you could make it."
+next =  "13"
 
 [valen_juniper_poly_two_hearts.13]
+speaker = "juniper"
+portrait = "happy"
+local  = "As am I. With another pair of hands I can spend less time picking and more time supervising."
+next = "14"
+
+[valen_juniper_poly_two_hearts.14]
 speaker = "juniper"
 portrait = "sly"
 local = "Now, come along! Let's not waste any more time."
