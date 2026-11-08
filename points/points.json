@@ -30,8 +30,8 @@
         },
         "foraging_basket1" : {
             "position": [
-                470,
-                1990
+                469,
+                1996
             ],
             "point_type": "prop",
             "direction": 1,
@@ -57,7 +57,34 @@
                 1979
             ],
             "point_type": "default"
+        },
+        "vjp2h_juniper_hold_hand": {
+            "position": [
+                465,
+                1979
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_juniper_exit": {
+            "position": [
+                766,
+                1979
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_ari_exit": {
+            "position": [
+                751,
+                1979
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_valen_exit": {
+            "position": [
+                766,
+                1979
+            ],
+            "point_type": "default"
         }
-
     }
 }
