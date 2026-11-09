@@ -2,3 +2,11 @@
 [portraits]
 	flirty_wink = ["spring", "summer", "autumn", "winter", "beach"]
 	snide = ["spring", "summer", "autumn", "winter", "beach"]
+
+[cycles.yawn]
+	default_direction = "south"
+	directions = ["south"]
+	outfits = ["spring"]
+	type = "complex"
+	on_pause_speaking = "idle"
+	on_pause_background = "idle"

@@ -1,3 +1,7 @@
 [vjp2h_basket_1]
     sprite = "spr_prop_small_picnic_basket_purple_main_horizontal_closed"
     z = -20
+
+[vjp2h_water_mint]
+    sprite = "spr_water_mint"
+    z = -20

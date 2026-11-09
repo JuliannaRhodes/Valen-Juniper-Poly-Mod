@@ -2,7 +2,7 @@
     "eastern_road": {
         "vjp2h_camera1": {
             "position": [
-                188,
+                484,
                 1989
             ],
             "point_type": "camera"
@@ -44,13 +44,6 @@
             ],
             "point_type": "default"
         },
-        "vjp2h_camera2": {
-            "position": [
-                484,
-                1989
-            ],
-            "point_type": "camera"
-        },
         "vjp2h_ari_bridge": {
             "position": [
                 450,
@@ -85,6 +78,43 @@
                 1979
             ],
             "point_type": "default"
+        },
+        "water_mint1" : {
+            "position": [
+                481,
+                1913
+            ],
+            "point_type": "prop",
+            "direction": 1,
+            "prop_name": "vjp2h_water_mint"
+        },
+        "vjp2h_valen_foraging1": {
+            "position": [
+                572,
+                893
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_ari_foraging1": {
+            "position": [
+                684,
+                893
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_juniper_watching1": {
+            "position": [
+                636,
+                941
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_camera2": {
+            "position": [
+                636,
+                973
+            ],
+            "point_type": "camera"
         }
     }
 }

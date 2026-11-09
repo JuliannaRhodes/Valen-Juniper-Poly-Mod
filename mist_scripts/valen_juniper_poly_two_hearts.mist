@@ -1,10 +1,11 @@
 scene(eastern_road);
-camera_position(vjp2h_camera2);
+camera_position(vjp2h_camera1);
 place_actor(ari, east, vjp2h_ari_entrance);
 place_actor(juniper, south, vjp2h_juniper_bridge);
 place_actor(valen, north, vjp2h_valen_bridge);
 setup_prop(foraging_basket1);
 request_music_play(juniper);
+setup_prop(water_mint1);
 
 sim {
     {
@@ -39,6 +40,12 @@ sim {
     {
         next_line(); // 7
         free bark_speech(juniper, sleepy);
+    }
+    {
+        wait(3);
+        animate(juniper, yawn);
+        wait(0.5);
+        animate(juniper, idle);
     }
 }
 
@@ -123,4 +130,24 @@ sim {
     {
         walk(juniper, vjp2h_juniper_exit);
     }
-}
+    {
+        wait(8);
+        fade_out(2);
+    }
+    }
+camera_position(vjp2h_camera2);
+place_actor(ari, north, vjp2h_ari_foraging1);
+animate(ari, action);
+place_actor(juniper, north, vjp2h_juniper_watching1);
+animate(juniper, sit);
+place_actor(valen, north, vjp2h_valen_foraging1);
+animate(valen, action);
+wait(1);
+
+sim {
+	{
+		fade_in(2);
+	}
+    }
+
+wait(7);
