@@ -1,11 +1,11 @@
 [meta_properties]
-id = "891e36a5a73964e3"
+id = "07c45b7bd79a5ecb"
 asset_kind = "Animation"
 
 [asset_properties]
 frame_size = [80, 80]
-frame_len = 3
-duration = [0.15, 3.00, 0.15]
+frame_len = 4
+duration = [2.00, 2.00, 2.00, 2.00]
 atlas = "Default"
 
 [asset_properties.offset]

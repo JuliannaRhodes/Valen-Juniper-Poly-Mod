@@ -1,0 +1,12 @@
+[meta_properties]
+id = "459893d6e2583ce7"
+asset_kind = "Animation"
+
+[asset_properties]
+frame_size = [80, 80]
+atlas = "Default"
+
+[asset_properties.offset]
+horizontal = "Middle"
+vertical = 54.0
+

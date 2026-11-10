@@ -115,6 +115,38 @@
                 973
             ],
             "point_type": "camera"
+        },
+        "foraging_basket2" : {
+            "position": [
+                612,
+                941
+            ],
+            "point_type": "prop",
+            "direction": 1,
+            "prop_name": "vjp2h_basket_1"
+        },
+        "vjp2h_valen_foraging2": {
+            "position": [
+                703,
+                894
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_ari_foraging2": {
+            "position": [
+                455,
+                972
+            ],
+            "point_type": "default"
+        },       
+        "vjp2h_valen_foraging3": {
+            "position": [
+                478,
+                972
+            ],
+            "point_type": "default"
         }
+        
+
     }
 }

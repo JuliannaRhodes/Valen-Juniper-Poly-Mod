@@ -6,7 +6,20 @@
 [cycles.yawn]
 	default_direction = "south"
 	directions = ["south"]
-	outfits = ["spring"]
-	type = "complex"
+	outfits = ["spring", "summer", "autumn", "winter"]
+	type = "linear"
 	on_pause_speaking = "idle"
 	on_pause_background = "idle"
+
+[cycles.sit_ground]
+	default_direction = "north"
+	directions = ["north"]
+	is_seated = true
+	outfits = ["spring", "summer", "autumn", "winter"]
+	type = "linear"
+
+[cycles.lounge]
+	default_direction = "south"
+	directions = ["south"]
+	outfits = ["spring", "summer", "autumn", "winter"]
+	type = "complex"

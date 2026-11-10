@@ -38,13 +38,15 @@ next_line(); // 6
         
 sim {
     {
-        next_line(); // 7
+        wait(2.5);
         free bark_speech(juniper, sleepy);
+        next_line(); // 7
+
     }
     {
-        wait(3);
+        wait(2.5);
         animate(juniper, yawn);
-        wait(0.5);
+        wait(5);
         animate(juniper, idle);
     }
 }
@@ -124,6 +126,7 @@ sim {
         face(valen, north);
         wait(0.5);
         face(valen, east);
+        free bark_speech(valen, sweat_drop);
         wait(1);
         walk(valen, vjp2h_valen_exit);
     }
@@ -131,23 +134,57 @@ sim {
         walk(juniper, vjp2h_juniper_exit);
     }
     {
-        wait(8);
+        wait(7);
         fade_out(2);
     }
     }
+
 camera_position(vjp2h_camera2);
+setup_prop(foraging_basket2);
 place_actor(ari, north, vjp2h_ari_foraging1);
 animate(ari, action);
 place_actor(juniper, north, vjp2h_juniper_watching1);
-animate(juniper, sit);
+animate(juniper, sit_ground);
 place_actor(valen, north, vjp2h_valen_foraging1);
 animate(valen, action);
 wait(1);
+fade_in(2);
+
 
 sim {
-	{
-		fade_in(2);
-	}
+    {
+        wait(1);
+        free bark_speech(ari, farming);
+    }
+    {
+        wait(2.5);
+        free bark_speech(valen, question_mark);
+        walk(valen, vjp2h_valen_foraging2);
+        face(valen, west);
+    }
+    {
+        wait(6);
+        fade_out(2);
+    }
     }
 
-wait(7);
+place_actor(ari, east, vjp2h_ari_foraging2);
+animate(ari, idle);
+place_actor(valen, south, vjp2h_valen_foraging3);
+animate(valen, write);
+animate(juniper, lounge);
+wait(1);
+fade_in(2);
+
+sim {
+    {
+        wait(1);
+        free bark_speech(ari, plant_tonic);
+    }
+    {
+        wait(2.5);
+        free bark_speech(valen, cute_face);
+    }
+    }
+
+    wait(6);
