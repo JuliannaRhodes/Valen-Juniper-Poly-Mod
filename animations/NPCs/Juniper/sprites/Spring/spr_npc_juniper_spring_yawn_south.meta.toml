@@ -5,7 +5,7 @@ asset_kind = "Animation"
 [asset_properties]
 frame_size = [80, 80]
 frame_len = 3
-duration = [0.5, 4.00, 0.5]
+duration = [0.25, 3.00, 0.25]
 atlas = "Default"
 
 [asset_properties.offset]

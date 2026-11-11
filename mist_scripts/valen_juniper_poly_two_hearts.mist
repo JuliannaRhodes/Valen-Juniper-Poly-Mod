@@ -38,18 +38,20 @@ next_line(); // 6
         
 sim {
     {
-        wait(2.5);
+        wait(2);
         free bark_speech(juniper, sleepy);
-        next_line(); // 7
-
     }
     {
-        wait(2.5);
+        next_line(); // 7
+    }
+    {
+        wait(2);
         animate(juniper, yawn);
-        wait(5);
+        wait(3.5);
         animate(juniper, idle);
     }
 }
+
 
 next_line(); // 8
 
@@ -126,7 +128,8 @@ sim {
         face(valen, north);
         wait(0.5);
         face(valen, east);
-        free bark_speech(valen, sweat_drop);
+        wait(0.5);
+        free bark_speech(valen, annoyed);
         wait(1);
         walk(valen, vjp2h_valen_exit);
     }
@@ -159,6 +162,8 @@ sim {
     {
         wait(2.5);
         free bark_speech(valen, question_mark);
+        face(valen, east);
+        wait(1);
         walk(valen, vjp2h_valen_foraging2);
         face(valen, west);
     }
@@ -184,6 +189,20 @@ sim {
     {
         wait(2.5);
         free bark_speech(valen, cute_face);
+    }
+    {
+        wait(4);
+        free bark_speech(ari, hungry);
+        wait(1);
+        free bark_speech(ari, farming);
+        wait(1);
+        free bark_speech(ari, yum);
+    }
+    {
+        wait(7);
+        free bark_speech(valen, exclamation_mark);
+        wait(1);
+        free bark_speech(valen, no_hungry);
     }
     }
 

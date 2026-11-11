@@ -22,4 +22,4 @@
 	default_direction = "south"
 	directions = ["south"]
 	outfits = ["spring", "summer", "autumn", "winter"]
-	type = "complex"
+	type = "linear"
