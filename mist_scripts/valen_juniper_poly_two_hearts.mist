@@ -204,6 +204,111 @@ sim {
         wait(1);
         free bark_speech(valen, no_hungry);
     }
+    {
+        wait(9);
+        fade_out(2);
+    }
     }
 
-    wait(6);
+camera_position(vjp2h_camera3);
+place_actor(ari, south, vjp2h_ari_resting1);
+animate(ari, sit);
+place_actor(valen, south, vjp2h_valen_resting1);
+animate(valen, sit);
+place_actor(juniper, west, vjp2h_juniper_foraging1);
+animate(juniper, action);
+wait(1);
+fade_in(2);
+
+
+sim {
+    {
+        wait(4.5);
+        animate(juniper, idle);
+        face(juniper, south);
+        wait(1);
+        free bark_speech(juniper, ellipses);
+        wait(1);
+        walk(juniper, vjp2h_juniper_foraging2);
+        face(juniper, south);
+        wait(1);
+        animate(juniper, action);
+        wait(2);
+        animate(juniper, idle);
+        free bark_speech(juniper, annoyed);
+        wait(2);
+        walk(juniper, vjp2h_juniper_foraging3);
+        face(juniper, south);
+        wait(1);
+        animate(juniper, action);
+        wait(1);
+        walk(juniper, vjp2h_juniper_foraging4);
+        face(juniper, south);
+        wait(1);
+        animate(juniper, action);
+        wait(2);
+        animate(juniper, idle);
+        free bark_speech(juniper, angry);
+    }
+    {
+        free bark_speech(valen, cute_face);
+        wait(1);
+        free bark_speech(ari, cute_face);
+        wait(12.5);
+        free bark_speech(valen, sweat_drop);
+    }
+    }
+
+
+sim {
+    {
+        wait(2);
+        next_line(); // 15
+    }
+    {
+        wait(2.5);
+        free bark_speech(juniper, exclamation_mark);
+        wait(0.5);
+        face(juniper, north);
+    }
+    }
+
+wait(0.5);
+next_line(); //16
+next_line(); //17
+next_line(); //18
+next_line(); //19
+next_line(); //20
+next_line(); //21
+next_line(); //22
+
+
+sim {
+    {
+        next_line(); //23
+        walk(valen, vjp2h_valen_foraging4);
+        wait(1.5);
+        close_textbox();
+    }
+    {
+        wait(2.5);
+        face(juniper, south);
+    }
+    }
+    {
+        wait(2);
+        free bark_speech(ari, sweat_drop);
+        wait(1);
+        walk(ari, vjp2h_ari_foraging3);
+    }
+
+wait(1.5);
+
+next_line(); //23
+next_line(); //24
+next_line(); //25
+next_line(); //26
+next_line(); //27
+next_line(); //28
+next_line(); //29
+

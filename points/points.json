@@ -145,8 +145,71 @@
                 972
             ],
             "point_type": "default"
+        },
+        "vjp2h_valen_resting1": {
+            "position": [
+                410,
+                1446
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_ari_resting1": {
+            "position": [
+                430,
+                1446
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_juniper_foraging1": {
+            "position": [
+                240,
+                1487
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_camera3": {
+            "position": [
+                390,
+                1500
+            ],
+            "point_type": "camera"
+        },
+        "vjp2h_juniper_foraging2": {
+            "position": [
+                420,
+                1572
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_juniper_foraging3": {
+            "position": [
+                350,
+                1572
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_juniper_foraging4": {
+            "position": [
+                470,
+                1572
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_valen_foraging4": {
+            "position": [
+                450,
+                1572
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_ari_foraging3": {
+            "position": [
+                435,
+                1572
+            ],
+            "point_type": "default"
         }
         
-
+        
     }
 }

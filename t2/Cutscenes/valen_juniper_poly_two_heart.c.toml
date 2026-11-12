@@ -90,4 +90,100 @@ next = "14"
 speaker = "juniper"
 portrait = "sly"
 local = "Now, come along! Let's not waste any more time."
+next = "15"
+
+[valen_juniper_poly_two_hearts.15]
+speaker = "valen"
+portrait = "ugh"
+effect = "sigh"
+local = "Juniper...What on earth are you doing?"
+next = "16"
+
+[valen_juniper_poly_two_hearts.16]
+speaker = "juniper"
+portrait = "embarrassed"
+local = "Trying to reach this plant!"
+next = "17"
+
+[valen_juniper_poly_two_hearts.17]
+speaker = "valen"
+portrait = "annoyance"
+local = "Well whatever it is it's too far! Just leave it."
+next = "18"
+
+[valen_juniper_poly_two_hearts.18]
+speaker = "juniper"
+portrait = "mad"
+local = "It's water mint, actually. I'd hardly go to all this trouble for just any ordinary plant."
+next = "19"
+
+[valen_juniper_poly_two_hearts.19]
+speaker = "juniper"
+portrait = "sly"
+local = "It's supposed to help clear away negative energy. You could probably use a little next time you're in for a bath."
+next = "20"
+
+[valen_juniper_poly_two_hearts.20]
+speaker = "valen"
+portrait = "annoyance"
+local = "I'm going to pretend I didn't hear that."
+next = "21"
+
+[valen_juniper_poly_two_hearts.21]
+speaker = "valen"
+portrait = "think"
+local = "Still, water mint is a useful find. I can use some in my remedies."
+next = "22"
+
+[valen_juniper_poly_two_hearts.22]
+speaker = "juniper"
+portrait = "sly"
+local = "See? Now, are you going to help me get it, or just stand there admiring it?"
+next = "23"
+
+[valen_juniper_poly_two_hearts.23]
+speaker = "valen"
+portrait = "annoyance"
+effect = "sigh"
+local = "Fine. But if you end up in the water, I'm not fishing you out."
+next = "24"
+
+[valen_juniper_poly_two_hearts.24]
+speaker = "juniper"
+portrait = "annoyed"
+local = "How reassuring. Now, just a little further..."
+next = "25"
+
+[valen_juniper_poly_two_hearts.25]
+speaker = "valen"
+portrait = "concerned"
+local = "Here. Let me try. You're not going to reach it from that angle."
+next = "26"
+
+[valen_juniper_poly_two_hearts.26]
+speaker = "juniper"
+portrait = "annoyed"
+local = "You're no closer than I am."
+next = "27"
+
+[valen_juniper_poly_two_hearts.27]
+speaker = "valen"
+portrait = "mad"
+local = "Then by all means, go ahead."
+next = "28"
+
+[valen_juniper_poly_two_hearts.28]
+speaker = "juniper"
+portrait = "angry_brows"
+local = "Oh, don't be so dramatic. I nearly have it..."
+next = "29"
+
+[valen_juniper_poly_two_hearts.29]
+speaker = "juniper"
+portrait = "shocked"
+effect = "shock"
+local = "Ah—!"
+
+
+
 
