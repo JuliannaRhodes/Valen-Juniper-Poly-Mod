@@ -294,21 +294,31 @@ sim {
         wait(2.5);
         face(juniper, south);
     }
-    }
     {
-        wait(2);
+        wait(1);
         free bark_speech(ari, sweat_drop);
         wait(1);
         walk(ari, vjp2h_ari_foraging3);
     }
+    }
 
 wait(1.5);
 
-next_line(); //23
 next_line(); //24
 next_line(); //25
 next_line(); //26
 next_line(); //27
 next_line(); //28
 next_line(); //29
+wait(1);   
+fade_out(2);
 
+sim {
+        animate(juniper, accident);
+        place_actor(juniper, south, vjp2h_juniper_water);
+    }
+
+fade_in(2.0);
+wait(1.5);
+
+wait(5);

@@ -23,3 +23,9 @@
 	directions = ["south"]
 	outfits = ["spring", "summer", "autumn", "winter"]
 	type = "linear"
+
+[cycles.accident]
+	default_direction = "south"
+	directions = ["south"]
+	outfits = ["spring", "summer", "autumn", "winter"]
+	type = "linear"

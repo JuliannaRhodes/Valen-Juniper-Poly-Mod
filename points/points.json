@@ -208,8 +208,21 @@
                 1572
             ],
             "point_type": "default"
+        },
+        "vjp2h_juniper_water": {
+            "position": [
+                470,
+                1626
+            ],
+            "point_type": "default"
+        },
+        "vjp2h_camera4": {
+            "position": [
+                390,
+                1650
+            ],
+            "point_type": "camera"
         }
-        
         
     }
 }
